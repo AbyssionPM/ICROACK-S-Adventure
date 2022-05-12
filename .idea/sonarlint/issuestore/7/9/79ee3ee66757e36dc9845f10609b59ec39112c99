@@ -1,0 +1,154 @@
+
+‚
+java:S4144‡"fUpdate this method so that its implementation is not identical to "buttonRollMouseExited" on line 252.(•Ú­‡ıÿÿÿÿ
+l
+java:S1450Ä"URemove the "bgGame" field and declare it as a local variable in the relevant methods.(¶ÿ‘ş
+t
+java:S1450È"XRemove the "closeGame" field and declare it as a local variable in the relevant methods.(ææıÿÿÿÿ
+p
+java:S1450Ê"YRemove the "iconChrono" field and declare it as a local variable in the relevant methods.(Æİß˜
+t
+java:S1450Ë"]Remove the "iconRolledDice" field and declare it as a local variable in the relevant methods.(ˆõ–è
+r
+java:S1450Ì"VRemove the "jLabel1" field and declare it as a local variable in the relevant methods.(°ãÉ¸ÿÿÿÿÿ
+n
+java:S1450Ñ"WRemove the "transPan" field and declare it as a local variable in the relevant methods.(Ø¦‘ì
+9
+java:S1948#"$Make "ch" transient or serializable.(£â¬m
+:
+java:S1948%"$Make "fc" transient or serializable.(¦±ß¯
+;
+java:S1948&"%Make "tts" transient or serializable.(¶Æ¯¿
+5
+java:S3010/"Remove this assignment of "tt".(éöš
+:
+java:S30100"Remove this assignment of "vt".(å ™¹ûÿÿÿÿ
+K
+java:S2209/"5Change this instance-reference to a static reference.(éöš
+P
+java:S22090"5Change this instance-reference to a static reference.(å ™¹ûÿÿÿÿ
+Z
+java:S2147;"DCombine this catch with the one at line 57, which has the same body.( ¡É­
+K
+java:S2696]"6Make the enclosing method "static" or remove this set.(‰•Œ
+L
+java:S2696^"6Make the enclosing method "static" or remove this set.(ï²ñ¸
+X
+java:S1161†":Add the "@Override" annotation above this method signature(†ŒË³8¿•µæŠ0
+X
+java:S1161":Add the "@Override" annotation above this method signature(†ŒË³8Å•µæŠ0
+X
+java:S1161¡":Add the "@Override" annotation above this method signature(—¶Ğé8Ç•µæŠ0
+]
+java:S1161¤":Add the "@Override" annotation above this method signature(™ÅšÊûÿÿÿÿ8É•µæŠ0
+X
+java:S1161§":Add the "@Override" annotation above this method signature(ö¦óş8Ê•µæŠ0
+]
+java:S1161ª":Add the "@Override" annotation above this method signature(Œïêûÿÿÿÿ8Ë•µæŠ0
+]
+java:S1161¯":Add the "@Override" annotation above this method signature(Õş°ıüÿÿÿÿ8Î•µæŠ0
+X
+java:S1161½":Add the "@Override" annotation above this method signature(—¶Ğé8Ò•µæŠ0
+H
+java:S1172Ç"*Remove this unused method parameter "evt".(şåÖŒ8Ö•µæŠ0
+Y	java:S125Ê"<This block of commented-out lines of code should be removed.(ÆúÙ»8×•µæŠ0
+U
+java:S1135È"2Complete the task associated to this TODO comment.(ÜÀ†áûÿÿÿÿ8Ù•µæŠ0
+c
+java:S2147Ğ"ECombine this catch with the one at line 206, which has the same body.(Ãôş•8Ù•µæŠ0
+c
+java:S2147Ò"ECombine this catch with the one at line 206, which has the same body.( ¡É­8Ú•µæŠ0
+c
+java:S2147â"ECombine this catch with the one at line 224, which has the same body.(Ö¨š•8Ş•µæŠ0
+X	java:S125Ş"<This block of commented-out lines of code should be removed.(–¸Òj8ß•µæŠ0
+Q
+java:S2209è"5Change this instance-reference to a static reference.(ÜÏ¤üÿÿÿÿ
+X
+java:S2209è"5Change this instance-reference to a static reference.(ÜÏ¤üÿÿÿÿ8ã•µæŠ0
+T	java:S106ë"9Replace this use of System.out or System.err by a logger.(¦Â‚úÿÿÿÿ
+X
+java:S2209ë"5Change this instance-reference to a static reference.(¦Â‚úÿÿÿÿ8å•µæŠ0
+[	java:S106ì"9Replace this use of System.out or System.err by a logger.(¹€Ò€ÿÿÿÿÿ8æ•µæŠ0
+X
+java:S2209ì"5Change this instance-reference to a static reference.(¹€Ò€ÿÿÿÿÿ8ç•µæŠ0
+[	java:S106ï"9Replace this use of System.out or System.err by a logger.(‹›ñÿÿÿÿÿ8é•µæŠ0
+^	java:S125ğ"<This block of commented-out lines of code should be removed.(å¬„£ùÿÿÿÿ8ë•µæŠ0
+M
+java:S1172ö"*Remove this unused method parameter "evt".(îŒ§•úÿÿÿÿ8ì•µæŠ0
+U
+java:S1135÷"2Complete the task associated to this TODO comment.(ÜÀ†áûÿÿÿÿ8í•µæŠ0
+H
+java:S1172ü"*Remove this unused method parameter "evt".(â‘ëÙ8ï•µæŠ0
+U
+java:S1135ı"2Complete the task associated to this TODO comment.(ÜÀ†áûÿÿÿÿ8ğ•µæŠ0
+H
+java:S1172‚"*Remove this unused method parameter "evt".(éìµÌ8ñ•µæŠ0
+U
+java:S1135ƒ"2Complete the task associated to this TODO comment.(ÜÀ†áûÿÿÿÿ8ò•µæŠ0
+M
+java:S1172‡"*Remove this unused method parameter "evt".(•Ú­‡ıÿÿÿÿ8ó•µæŠ0
+U
+java:S1135ˆ"2Complete the task associated to this TODO comment.(ÜÀ†áûÿÿÿÿ8õ•µæŠ0
+M
+java:S1172"*Remove this unused method parameter "evt".(¡²Ãşúÿÿÿÿ8ö•µæŠ0
+U
+java:S1135"2Complete the task associated to this TODO comment.(ÜÀ†áûÿÿÿÿ8÷•µæŠ0
+X
+java:S2209‘"5Change this instance-reference to a static reference.(ğƒ¨Ëúÿÿÿÿ8ù•µæŠ0
+k
+java:S5738‘"HRemove this call to a deprecated method, it has been marked for removal.(ğƒ¨Ëúÿÿÿÿ8ù•µæŠ0
+M
+java:S1172”"*Remove this unused method parameter "evt".(öŞÛªùÿÿÿÿ8û•µæŠ0
+U
+java:S1135•"2Complete the task associated to this TODO comment.(ÜÀ†áûÿÿÿÿ8û•µæŠ0
+H
+java:S1172˜"*Remove this unused method parameter "evt".(²Ò‚Ø8ı•µæŠ0
+U
+java:S1135™"2Complete the task associated to this TODO comment.(ÜÀ†áûÿÿÿÿ8ş•µæŠ0
+M
+java:S1197Ÿ"*Move the array designators [] to the type.(¡şÏÖøÿÿÿÿ8€–µæŠ0
+c
+java:S2147®"ECombine this catch with the one at line 300, which has the same body.(¨¦Š½8–µæŠ0
+c
+java:S2147°"ECombine this catch with the one at line 300, which has the same body.(ã€ 8–µæŠ0
+b
+java:S2147²"ECombine this catch with the one at line 300, which has the same body.(ñÎ¯%8‚–µæŠ0
+^	java:S125Æ"<This block of commented-out lines of code should be removed.(èşÛôúÿÿÿÿ8‰–µæŠ0
+l
+java:S1128"ORemove this unused import 'icroack.icroackadventures.controler.ControlerQuizz'.(í•Ü§8»¡–æŠ0
+<
+java:S1068%"&Remove this unused "fc" private field.(¦±ß¯
+w
+java:S1192o"UDefine a constant instead of duplicating this literal "Gill Sans Ultra Bold" 4 times.(ä‹„šùÿÿÿÿ8–µæŠ0
+x
+java:S1192œ"ZDefine a constant instead of duplicating this literal "resource/buttonRoll_r.png" 3 times.(ğ¢Ê¡8–µæŠ0
+Q
+java:S1141İ"5Extract this nested try block into a separate method.(¡»¢üùÿÿÿÿ
+K
+java:S1604¸"(Make this anonymous inner class a lambda(¨í¡§úÿÿÿÿ8–µæŠ0
+c
+java:S1104!"NMake vt a static final constant or non-public and provide accessors if needed.(´óÜ
+d
+java:S1104""NMake tt a static final constant or non-public and provide accessors if needed.(İïß
+c
+java:S1104#"NMake ch a static final constant or non-public and provide accessors if needed.(£â¬m
+d
+java:S1104$"NMake vb a static final constant or non-public and provide accessors if needed.(ó¢Ÿ˜
+u
+java:S1104Ç"WMake chronoLabel a static final constant or non-public and provide accessors if needed.(€Í©¹8‘–µæŠ0
+t
+java:S1104É"VMake froggyIcon a static final constant or non-public and provide accessors if needed.(Ö¥Ğ´8’–µæŠ0
+p
+java:S1104Í"TMake labScore a static final constant or non-public and provide accessors if needed.(Ì¡©šşÿÿÿÿ
+u
+java:S1104Î"YMake labTotalScore a static final constant or non-public and provide accessors if needed.(ÆŸäµıÿÿÿÿ
+u
+java:S1104Ï"WMake lastRollIco a static final constant or non-public and provide accessors if needed.(ÅÍßÍ8’–µæŠ0
+=
+java:S1444!"(Make this "public static vt" field final(´óÜ
+>
+java:S1444""(Make this "public static tt" field final(İïß
+O
+java:S1444Î"3Make this "public static labTotalScore" field final(ÆŸäµıÿÿÿÿ
+O
+java:S1444Ï"1Make this "public static lastRollIco" field final(ÅÍßÍ8“–µæŠ0

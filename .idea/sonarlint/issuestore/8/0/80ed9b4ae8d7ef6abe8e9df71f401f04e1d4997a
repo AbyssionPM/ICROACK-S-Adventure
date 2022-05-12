@@ -1,0 +1,79 @@
+
+n
+java:S1450ğ"WRemove the "jButton1" field and declare it as a local variable in the relevant methods.(å……¶
+n
+java:S1450ñ"WRemove the "jButton2" field and declare it as a local variable in the relevant methods.(¤½ÃÜ
+s
+java:S1450ò"WRemove the "jButton3" field and declare it as a local variable in the relevant methods.(ĞäğËıÿÿÿÿ
+r
+java:S1450ó"VRemove the "jLabel1" field and declare it as a local variable in the relevant methods.(°ãÉ¸ÿÿÿÿÿ
+r
+java:S1450ô"VRemove the "jLabel2" field and declare it as a local variable in the relevant methods.(™úòˆüÿÿÿÿ
+m
+java:S1450õ"VRemove the "jLabel5" field and declare it as a local variable in the relevant methods.(ó Ù®
+\
+java:S3252D"AUse static access with "javax.swing.SwingConstants" for "CENTER".(Ê×ìÿÿÿÿÿ
+W
+java:S3252j"AUse static access with "javax.swing.SwingConstants" for "CENTER".(ã´æå
+A
+java:S1172©"*Remove this unused method parameter "evt".(Âî»ü
+N
+java:S1135ª"2Complete the task associated to this TODO comment.(ÜÀ†áûÿÿÿÿ
+@
+java:S1172®"*Remove this unused method parameter "evt".(Š–ÿG
+N
+java:S1135¯"2Complete the task associated to this TODO comment.(ÜÀ†áûÿÿÿÿ
+S
+java:S1854¹"<Remove this useless assignment to local variable "contConn".(Ù€ï
+A
+java:S1172³"*Remove this unused method parameter "evt".(‚À‡ä
+\
+java:S2147¼"ECombine this catch with the one at line 186, which has the same body.(À‹ø„
+\
+java:S2147¾"ECombine this catch with the one at line 186, which has the same body.(Ãôş•
+N
+java:S1135µ"2Complete the task associated to this TODO comment.(ÜÀ†áûÿÿÿÿ
+]
+java:S1858¶"A"getText" returns a string, there's no need to call "toString()".(»±¤öúÿÿÿÿ
+M
+java:S2696·"6Make the enclosing method "static" or remove this set.(á¨æ
+X
+java:S1858·"A"getText" returns a string, there's no need to call "toString()".(á¨æ
+]
+java:S1858¸"A"getText" returns a string, there's no need to call "toString()".(ûÂà†şÿÿÿÿ
+K
+java:S1874¸"/Remove this use of "getText"; it is deprecated.(ûÂà†şÿÿÿÿ
+D
+java:S1481¹"-Remove this unused "contConn" local variable.(Ù€ï
+F
+java:S1172Å"*Remove this unused method parameter "evt".(¹¾ûüÿÿÿÿ
+N
+java:S1135Æ"2Complete the task associated to this TODO comment.(ÜÀ†áûÿÿÿÿ
+F
+java:S1197Ï"*Move the array designators [] to the type.(¡şÏÖøÿÿÿÿ
+\
+java:S2147Ş"ECombine this catch with the one at line 220, which has the same body.(¨¦Š½
+\
+java:S2147à"ECombine this catch with the one at line 220, which has the same body.(ã€ 
+[
+java:S2147â"ECombine this catch with the one at line 220, which has the same body.(ñÎ¯%
+C
+java:S1128".Remove this unused import 'java.util.HashSet'.(Ê‚êX
+E
+java:S1128"*Remove this unused import 'java.util.Set'.(ö²„¤şÿÿÿÿ
+p
+java:S1192="UDefine a constant instead of duplicating this literal "Gill Sans Ultra Bold" 6 times.(¥¨úöúÿÿÿÿ
+C
+java:S1604E"(Make this anonymous inner class a lambda(£À¿Óüÿÿÿÿ
+C
+java:S1604R"(Make this anonymous inner class a lambda(…æ©âÿÿÿÿÿ
+>
+java:S1604^"(Make this anonymous inner class a lambda(ÿóÎ×
+=
+java:S1604s"(Make this anonymous inner class a lambda(¥Šîj
+D
+java:S1604è"(Make this anonymous inner class a lambda(¨í¡§úÿÿÿÿ
+n
+java:S1104"SMake logSave a static final constant or non-public and provide accessors if needed.(ÔÑÃ‹ùÿÿÿÿ
+H
+java:S1444"-Make this "public static logSave" field final(ÔÑÃ‹ùÿÿÿÿ

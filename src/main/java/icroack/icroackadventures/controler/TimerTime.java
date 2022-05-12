@@ -34,15 +34,15 @@ public class TimerTime extends Thread{
     
     // Méthode run() permet le lancement du thread
     /*
-     * Tant que l'attribut seconds est inf. à 3600 (une minute)
-     *  seconds s'incrémente de 1 à chaque passage de boucle
+     * Tant que l'attribut minutes est inf. à 3600 (une heure)
+     *  minutes s'incrémente de 1 à chaque passage de boucle
      *     Si second passe à 60 alors on incrémente minutes de 1
      *        on repasse second à 0 
      *     On met à jour en static le label du chrono
-     *  On passe endort le thread pendant 1000 milliseconds => Une minute
+     *  On endort le thread pendant 1000 milliseconds => Une minute
      *
      */
-    public void run(){
+    public void run(Game g){
         while(second<3600){
             
             second++;
@@ -50,13 +50,16 @@ public class TimerTime extends Thread{
                 second = 0;
                 minutes++;
             }if(second < 10){
-                Game.chronoLabel.setText(hours+":"+minutes+":"+second);
+                //Game.chronoLabel.setText(hours+":"+minutes+":"+second);
+                g.chronoLabel.setText(hours+":"+minutes+":"+second);
             }else{
-                Game.chronoLabel.setText(hours+":"+minutes+":"+second);
+                //Game.chronoLabel.setText(hours+":"+minutes+":"+second);
+                g.chronoLabel.setText(hours+":"+minutes+":"+second);
             }if(minutes>60){
                 minutes=0;
                 hours++;
-                Game.chronoLabel.setText(hours+":"+minutes+":"+second);
+                //Game.chronoLabel.setText(hours+":"+minutes+":"+second);
+                g.chronoLabel.setText(hours+":"+minutes+":"+second);
             }try{
                 sleep(1000);
             }catch(InterruptedException e){

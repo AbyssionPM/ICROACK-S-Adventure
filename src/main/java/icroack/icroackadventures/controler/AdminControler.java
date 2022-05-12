@@ -6,11 +6,8 @@ package icroack.icroackadventures.controler;
 
 import icroack.icroackadventures.model.DAOIcare;
 import icroack.icroackadventures.view.AdminView;
-import java.sql.Connection;
 
-import java.sql.PreparedStatement;
-import java.sql.ResultSet;
-import java.sql.SQLException;
+import java.sql.*;
 
 
 /**
@@ -19,7 +16,6 @@ import java.sql.SQLException;
  */
 public class AdminControler {
     // Déclaration des attributs de la classe
-    Connection connexion;
     DAOIcare daoIcare ;
     String queryLogin ;
     ConfigReader cf ;
@@ -70,12 +66,56 @@ public class AdminControler {
      *
      */
     public void deleteAccount(String selectedAccount, AdminView adV) throws SQLException{
-        
         String queryDelete = "DELETE FROM player WHERE login = '" + selectedAccount + "';";
         PreparedStatement ps_delete = this.daoIcare.getConn().prepareStatement(queryDelete);
         ps_delete.executeUpdate();
         adV.btnDeleteAccount.setText("done !");
     }
-    
-    
+
+    //Méthode renameUser :
+    /*
+     * Cette méhode permet à un administrateur de renommer le compte d'un autre utilisateur
+     * elle prend en paramètre le compte sélectionné dans le JOptionPane, le texte rentré dans
+     * le JTextField correspondand et la vue administrateur.
+     * On execute ensuite une requête préparée afin d'updater la BDD
+     * Pour signifier que l'action a fonctionnée, on définit le texte du dit boutton à "done !"
+     */
+    public void renameUser(String selectedAccount, String newUpdatedLogin ,AdminView adV) throws SQLException {
+        String queryRename = "UPDATE player SET login = '"+ newUpdatedLogin +"' WHERE login = '"+ selectedAccount + "';";
+        PreparedStatement ps_renameUser = this.daoIcare.getConn().prepareStatement(queryRename);
+        ps_renameUser.executeUpdate();
+        adV.btnExecRename.setText("done !");
+    }
+
+    //Méthode defineNewPass :
+    /*
+     * Cette méhode permet à un administrateur de modifier le mot de passe d'un autre utilisateur
+     * elle prend en paramètre le compte sélectionné dans le JOptionPane, le texte rentré dans
+     * le JTextField correspondand et la vue administrateur.
+     * On execute ensuite une requête préparée afin d'updater la BDD
+     * Pour signifier que l'action a fonctionnée, on définit le texte du dit boutton à "done !"
+     */
+    public void defineNewPass(String selectedAccount, String newUpdatedPass, AdminView adV) throws SQLException {
+        String queryDefineNewPass = "UPDATE player SET password = '"+ newUpdatedPass+"' WHERE login = '"+ selectedAccount+"';" ;
+        PreparedStatement ps_defineNewPass = this.daoIcare.getConn().prepareStatement(queryDefineNewPass);
+        ps_defineNewPass.executeUpdate();
+        adV.btnExecSetPass.setText("done !");
+    }
+
+    //Méthode listAccount :
+    /*
+    * Cette méthode se contente de lister l'ensemble des comptes présent sur la BDD
+    * */
+    public String listAccount() throws SQLException {
+        String accountNumber;
+        int counter = 0;
+        String queryCount = "SELECT count(*) FROM player;";
+        ResultSet rs1= this.daoIcare.getStUser().executeQuery(queryCount);
+        rs1.next();
+        counter = rs1.getInt(1);
+        accountNumber = String.valueOf(counter);
+        return accountNumber;
+    }
+
+    public static void main(String[] args) {}
 }

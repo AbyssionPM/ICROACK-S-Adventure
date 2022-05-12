@@ -1,0 +1,16 @@
+
+d	java:S116"ORename this field "HALT" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(æ¿È
+7
+java:S1170"!Make this final field static too.(æ¿È
+=
+java:S1125&"'Remove the unnecessary boolean literal.(§¿Éí
+y
+java:S2142,"^Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.(ÚíĞİşÿÿÿÿ
+C	java:S108,")Either remove or fill this block of code.(ÚíĞİşÿÿÿÿ
+^
+java:S1128"HRemove this unused import 'icroack.icroackadventures.model.FlappyScene'.(…ı‰ˆ
+J
+java:S1128	"4Remove this unused import 'java.util.logging.Level'.(…µÛ¶
+K
+java:S1128
+"5Remove this unused import 'java.util.logging.Logger'.(ƒ¥óš

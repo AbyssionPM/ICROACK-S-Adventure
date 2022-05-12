@@ -1,0 +1,97 @@
+
+n
+java:S1450ç"WRemove the "jButton2" field and declare it as a local variable in the relevant methods.(¤½ÃÜ
+r
+java:S1450è"VRemove the "jLabel6" field and declare it as a local variable in the relevant methods.(¸ôÂøÿÿÿÿ
+m
+java:S1450î"VRemove the "lbDFive" field and declare it as a local variable in the relevant methods.(¬Û¡‚
+o
+java:S1450ï"XRemove the "ldBCopper" field and declare it as a local variable in the relevant methods.(¤Èˆ¨
+l
+java:S1450ğ"VRemove the "ldBGold" field and declare it as a local variable in the relevant methods.(£Â
+t
+java:S1450ñ"XRemove the "ldBSilver" field and declare it as a local variable in the relevant methods.(±ĞÌ¤ÿÿÿÿÿ
+n
+java:S1450ò"WRemove the "ldBTitle" field and declare it as a local variable in the relevant methods.(××ìÚ
+m
+java:S1450ó"VRemove the "ldbFour" field and declare it as a local variable in the relevant methods.(“öŞ
+:
+java:S1948"$Make "fc" transient or serializable.(³·Şë
+Q
+java:S26960"6Make the enclosing method "static" or remove this set.(úµºÌÿÿÿÿÿ
+Q
+java:S26961"6Make the enclosing method "static" or remove this set.(”™Ã¯ÿÿÿÿÿ
+Q
+java:S26962"6Make the enclosing method "static" or remove this set.(¡™øìÿÿÿÿÿ
+L
+java:S26963"6Make the enclosing method "static" or remove this set.(ô§ø
+Q
+java:S26964"6Make the enclosing method "static" or remove this set.(³„«¦ÿÿÿÿÿ
+L
+java:S26965"6Make the enclosing method "static" or remove this set.(€İÊ°
+Q
+java:S26966"6Make the enclosing method "static" or remove this set.(‰ßîºûÿÿÿÿ
+L
+java:S26967"6Make the enclosing method "static" or remove this set.(ˆÓ¸Â
+Q
+java:S26968"6Make the enclosing method "static" or remove this set.(®çƒùÿÿÿÿ
+L
+java:S26969"6Make the enclosing method "static" or remove this set.(¦‚´À
+F
+java:S1172º"*Remove this unused method parameter "evt".(¹¾ûüÿÿÿÿ
+N
+java:S1135»"2Complete the task associated to this TODO comment.(ÜÀ†áûÿÿÿÿ
+F
+java:S1197Â"*Move the array designators [] to the type.(¡şÏÖøÿÿÿÿ
+\
+java:S2147Ñ"ECombine this catch with the one at line 207, which has the same body.(¨¦Š½
+\
+java:S2147Ó"ECombine this catch with the one at line 207, which has the same body.(ã€ 
+[
+java:S2147Õ"ECombine this catch with the one at line 207, which has the same body.(ñÎ¯%
+l
+java:S1192Q"VDefine a constant instead of duplicating this literal "Gill Sans Ultra Bold" 13 times.(¤Éµº
+?
+java:S1604«"(Make this anonymous inner class a lambda(ÿóÎ×
+D
+java:S1604Û"(Make this anonymous inner class a lambda(¨í¡§úÿÿÿÿ
+p
+java:S1104é"TMake labName1 a static final constant or non-public and provide accessors if needed.(‘™¨üÿÿÿÿ
+k
+java:S1104ê"TMake labName2 a static final constant or non-public and provide accessors if needed.(”Â×§
+p
+java:S1104ë"TMake labName3 a static final constant or non-public and provide accessors if needed.(¼¸µÒúÿÿÿÿ
+k
+java:S1104ì"TMake labName4 a static final constant or non-public and provide accessors if needed.(¢–²Ú
+p
+java:S1104í"TMake labName5 a static final constant or non-public and provide accessors if needed.(˜£·øÿÿÿÿÿ
+t
+java:S1104ô"XMake ldbLabCopper a static final constant or non-public and provide accessors if needed.(„€İüÿÿÿÿ
+m
+java:S1104õ"VMake ldbLabFive a static final constant or non-public and provide accessors if needed.(˜¶»Ô
+r
+java:S1104ö"VMake ldbLabFour a static final constant or non-public and provide accessors if needed.(ÔíÔöùÿÿÿÿ
+m
+java:S1104÷"VMake ldbLabGold a static final constant or non-public and provide accessors if needed.(Ş—¹ç
+n
+java:S1104ø"XMake ldbLabSilver a static final constant or non-public and provide accessors if needed.(œ÷~
+J
+java:S1444é".Make this "public static labName1" field final(‘™¨üÿÿÿÿ
+E
+java:S1444ê".Make this "public static labName2" field final(”Â×§
+J
+java:S1444ë".Make this "public static labName3" field final(¼¸µÒúÿÿÿÿ
+E
+java:S1444ì".Make this "public static labName4" field final(¢–²Ú
+J
+java:S1444í".Make this "public static labName5" field final(˜£·øÿÿÿÿÿ
+N
+java:S1444ô"2Make this "public static ldbLabCopper" field final(„€İüÿÿÿÿ
+G
+java:S1444õ"0Make this "public static ldbLabFive" field final(˜¶»Ô
+L
+java:S1444ö"0Make this "public static ldbLabFour" field final(ÔíÔöùÿÿÿÿ
+G
+java:S1444÷"0Make this "public static ldbLabGold" field final(Ş—¹ç
+H
+java:S1444ø"2Make this "public static ldbLabSilver" field final(œ÷~

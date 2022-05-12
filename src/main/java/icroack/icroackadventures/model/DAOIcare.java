@@ -37,7 +37,7 @@ public class DAOIcare {
         // LOG BDD
         Class.forName(strClassName);
         this.conn = DriverManager.getConnection(this.strUrl + this.dbName+"?useSSL=false&useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC" ,login,mdp);
-        this.stUser = conn.createStatement();
+        stUser = conn.createStatement();
         // LOG BDD
     }
     

@@ -1,0 +1,84 @@
+
+p	java:S116×"URename this field "TitlePause" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ï’¤êşÿÿÿÿ
+u
+java:S1450×"YRemove the "TitlePause" field and declare it as a local variable in the relevant methods.(Ï’¤êşÿÿÿÿ
+l
+java:S1450Ø"VRemove the "bgPause" field and declare it as a local variable in the relevant methods.(ÒçÊ[
+P	java:S125"<This block of commented-out lines of code should be removed.(°ö„g
+P
+java:S1161>":Add the "@Override" annotation above this method signature(†ŒË³
+P
+java:S1161A":Add the "@Override" annotation above this method signature(—¶Ğé
+U
+java:S1161D":Add the "@Override" annotation above this method signature(™ÅšÊûÿÿÿÿ
+P
+java:S1161M":Add the "@Override" annotation above this method signature(†ŒË³
+P
+java:S1161P":Add the "@Override" annotation above this method signature(—¶Ğé
+U
+java:S1161S":Add the "@Override" annotation above this method signature(™ÅšÊûÿÿÿÿ
+P
+java:S1161\":Add the "@Override" annotation above this method signature(†ŒË³
+P
+java:S1161_":Add the "@Override" annotation above this method signature(—¶Ğé
+U
+java:S1161b":Add the "@Override" annotation above this method signature(™ÅšÊûÿÿÿÿ
+@
+java:S1172p"*Remove this unused method parameter "evt".(÷Á”Ø
+M
+java:S1135q"2Complete the task associated to this TODO comment.(ÜÀ†áûÿÿÿÿ
+]
+java:S5738u"HRemove this call to a deprecated method, it has been marked for removal.(¢·ûk
+E
+java:S1172x"*Remove this unused method parameter "evt".(¢çñüÿÿÿÿ
+M
+java:S1135y"2Complete the task associated to this TODO comment.(ÜÀ†áûÿÿÿÿ
+P
+java:S2209|"5Change this instance-reference to a static reference.(æûÖşÿÿÿÿ
+c
+java:S5738|"HRemove this call to a deprecated method, it has been marked for removal.(æûÖşÿÿÿÿ
+K
+java:S2209}"5Change this instance-reference to a static reference.(¼ÔØ›
+K
+java:S2209}"5Change this instance-reference to a static reference.(¼ÔØ›
+P
+java:S2209~"5Change this instance-reference to a static reference.(­ÍÓ€ûÿÿÿÿ
+P
+java:S2209~"5Change this instance-reference to a static reference.(­ÍÓ€ûÿÿÿÿ
+F
+java:S1172Š"*Remove this unused method parameter "evt".(¾ÏÜ¤üÿÿÿÿ
+N
+java:S1135‹"2Complete the task associated to this TODO comment.(ÜÀ†áûÿÿÿÿ
+F
+java:S1172"*Remove this unused method parameter "evt".(ëÇŠ·úÿÿÿÿ
+N
+java:S1135"2Complete the task associated to this TODO comment.(ÜÀ†áûÿÿÿÿ
+A
+java:S1172•"*Remove this unused method parameter "evt".(üÚÄÑ
+N
+java:S1135–"2Complete the task associated to this TODO comment.(ÜÀ†áûÿÿÿÿ
+@
+java:S1172›"*Remove this unused method parameter "evt".(¡¼Ñ
+N
+java:S1135œ"2Complete the task associated to this TODO comment.(ÜÀ†áûÿÿÿÿ
+A
+java:S1172¡"*Remove this unused method parameter "evt".(‚×Ùã
+N
+java:S1135¢"2Complete the task associated to this TODO comment.(ÜÀ†áûÿÿÿÿ
+A
+java:S1172§"*Remove this unused method parameter "evt".(”Õïë
+N
+java:S1135¨"2Complete the task associated to this TODO comment.(ÜÀ†áûÿÿÿÿ
+F
+java:S1172­"*Remove this unused method parameter "evt".(·¹ı‡øÿÿÿÿ
+N
+java:S1135®"2Complete the task associated to this TODO comment.(ÜÀ†áûÿÿÿÿ
+F
+java:S1197¶"*Move the array designators [] to the type.(¡şÏÖøÿÿÿÿ
+\
+java:S2147Å"ECombine this catch with the one at line 195, which has the same body.(¨¦Š½
+\
+java:S2147Ç"ECombine this catch with the one at line 195, which has the same body.(ã€ 
+[
+java:S2147É"ECombine this catch with the one at line 195, which has the same body.(ñÎ¯%
+W	java:S125Ï"<This block of commented-out lines of code should be removed.(¡ôÈÃıÿÿÿÿ

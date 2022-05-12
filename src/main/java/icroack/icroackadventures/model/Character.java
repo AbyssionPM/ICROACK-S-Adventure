@@ -7,11 +7,8 @@ package icroack.icroackadventures.model;
 
 import icroack.icroackadventures.controler.ControlerQuizz;
 import icroack.icroackadventures.controler.TimerTime;
-import icroack.icroackadventures.view.FlappyFrog;
-import icroack.icroackadventures.view.Game;
-import icroack.icroackadventures.view.Login;
-import icroack.icroackadventures.view.RollBack;
-import icroack.icroackadventures.view.TicTacToe;
+import icroack.icroackadventures.view.*;
+
 import java.io.IOException;
 import java.sql.SQLException;
 import java.util.Random;
@@ -100,8 +97,21 @@ public class Character {
                 Character.yPosCharacter = 30;
             }
             if(moveCounter == 2){
-                Character.xPosCharacter = 443;
-                Character.yPosCharacter = 30;
+                RollUp rp = new RollUp();
+                rp.setVisible(true);
+                if(chooseGame <=33){
+                    FlappyFrog ff = new FlappyFrog();
+                    ff.setVisible(true);
+                }else if( chooseGame >33 && chooseGame <= 66){
+                    ControlerQuizz cq = new ControlerQuizz();
+                    cq.start();
+                }else{
+                    TicTacToe ticTacToe = new TicTacToe();
+                    ticTacToe.fenetre();
+                }
+                moveCounter = 5;
+                Character.xPosCharacter = 623;
+                Character.yPosCharacter = 120;
             }
             if(moveCounter == 3){
                 RollBack rb = new RollBack();
@@ -145,8 +155,21 @@ public class Character {
                 Character.yPosCharacter = 300;
             }
             if(moveCounter == 9){
-                Character.xPosCharacter = 443;
-                Character.yPosCharacter = 300;
+                RollUp rp = new RollUp();
+                rp.setVisible(true);
+                if(chooseGame <=33){
+                    FlappyFrog ff = new FlappyFrog();
+                    ff.setVisible(true);
+                }else if( chooseGame >33 && chooseGame <= 66){
+                    ControlerQuizz cq = new ControlerQuizz();
+                    cq.start();
+                }else{
+                    TicTacToe ticTacToe = new TicTacToe();
+                    ticTacToe.fenetre();
+                }
+                moveCounter = 12;
+                Character.xPosCharacter = 263;
+                Character.yPosCharacter = 390;
             }
             if(moveCounter == 10){
                 Character.xPosCharacter = 353;
@@ -174,8 +197,9 @@ public class Character {
                 Character.yPosCharacter = 390;
             }
             if(moveCounter == 13){
-                Character.xPosCharacter = 263;
-                Character.yPosCharacter = 480;
+                moveCounter = 16;
+                Character.xPosCharacter = 443;
+                Character.yPosCharacter = 570;
             }
             if(moveCounter == 14){
                 Character.xPosCharacter = 263;
@@ -193,7 +217,8 @@ public class Character {
                 Character.yPosCharacter = 570;
             }
             if(moveCounter == 17){
-                Character.xPosCharacter = 533;
+                moveCounter = 20;
+                Character.xPosCharacter = 803;
                 Character.yPosCharacter = 570;
             }
             if(moveCounter == 18){

@@ -1,0 +1,12 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="IcroakJAR">
+    <output-path>$PROJECT_DIR$/target/artifacts/IcroakJAR</output-path>
+    <root id="archive" name="IcroakJAR.jar">
+      <element id="module-output" name="IcroackAdventures" />
+      <element id="library" level="project" name="Maven: unknown.binary:AbsoluteLayout:SNAPSHOT" />
+      <element id="library" level="project" name="Maven: mysql:mysql-connector-java:8.0.28" />
+      <element id="library" level="project" name="Maven: com.google.protobuf:protobuf-java:3.11.4" />
+      <element id="library" level="project" name="Maven: org.p5android:processing-core:4.0.1" />
+    </root>
+  </artifact>
+</component>

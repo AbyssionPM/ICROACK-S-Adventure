@@ -9,7 +9,7 @@ import java.awt.Color;
 import java.sql.SQLException;
 import java.util.logging.Level;
 import java.util.logging.Logger;
-import javax.swing.BorderFactory;
+import javax.swing.*;
 
 /**
  *
@@ -22,6 +22,8 @@ public class AdminView extends javax.swing.JFrame {
      */
     private AdminControler adC;
     public String selectedOption;
+
+    private String listAccount;
     
     public AdminView() throws SQLException, ClassNotFoundException {
         this.adC = new AdminControler() ;
@@ -30,10 +32,11 @@ public class AdminView extends javax.swing.JFrame {
         this.getRootPane().setBorder(BorderFactory.createMatteBorder(1, 1, 1, 1, new Color(0,0,0)));
         getContentPane().setBackground(new Color(27, 132, 44));
         this.setLocationRelativeTo(null);
+        this.listAccount = adC.listAccount();
+        labAccount.setText("Comptes : "+ listAccount);
         adC.getAllLog(this);
         this.setAlwaysOnTop(true);
         this.setVisible(true);
-        
     }
 
     /**
@@ -102,7 +105,7 @@ public class AdminView extends javax.swing.JFrame {
         });
         btnDeleteAccount.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btnDeleteAccountActionPerformed(evt);
+                btnDeleteAccountActionPerformed();
             }
         });
         getContentPane().add(btnDeleteAccount, new org.netbeans.lib.awtextra.AbsoluteConstraints(396, 317, 163, 45));
@@ -119,19 +122,6 @@ public class AdminView extends javax.swing.JFrame {
             }
         });
         getContentPane().add(btnExecSetPass, new org.netbeans.lib.awtextra.AbsoluteConstraints(662, 245, 70, 45));
-
-        btnExecRename.setBackground(new java.awt.Color(4, 99, 6));
-        btnExecRename.setFont(new java.awt.Font("Gill Sans Ultra Bold", 0, 12)); // NOI18N
-        btnExecRename.setForeground(new java.awt.Color(255, 255, 255));
-        btnExecRename.setText("Go !");
-        btnExecRename.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
-        btnExecRename.setBorderPainted(false);
-        btnExecRename.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btnExecRenameActionPerformed(evt);
-            }
-        });
-        getContentPane().add(btnExecRename, new org.netbeans.lib.awtextra.AbsoluteConstraints(662, 179, 70, 45));
 
         jTextSetLog.setFont(new java.awt.Font("Gill Sans Ultra Bold", 0, 12)); // NOI18N
         jTextSetLog.setForeground(new java.awt.Color(0, 102, 0));
@@ -158,6 +148,24 @@ public class AdminView extends javax.swing.JFrame {
         labRename.setText("Renommer :");
         getContentPane().add(labRename, new org.netbeans.lib.awtextra.AbsoluteConstraints(279, 176, 100, 51));
 
+        btnExecRename.setBackground(new java.awt.Color(4, 99, 6));
+        btnExecRename.setFont(new java.awt.Font("Gill Sans Ultra Bold", 0, 12)); // NOI18N
+        btnExecRename.setForeground(new java.awt.Color(255, 255, 255));
+        btnExecRename.setText("Go !");
+        btnExecRename.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        btnExecRename.setBorderPainted(false);
+        btnExecRename.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseEntered(java.awt.event.MouseEvent evt) {
+                btnExecRenameMouseEntered(evt);
+            }
+        });
+        btnExecRename.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent b) {
+                btnExecRenameActionPerformed(b);
+            }
+        });
+        getContentPane().add(btnExecRename, new org.netbeans.lib.awtextra.AbsoluteConstraints(662, 179, 70, 45));
+
         btnExitAdmin.setBackground(new java.awt.Color(4, 99, 6));
         btnExitAdmin.setFont(new java.awt.Font("Gill Sans Ultra Bold", 0, 12)); // NOI18N
         btnExitAdmin.setForeground(new java.awt.Color(255, 255, 255));
@@ -178,7 +186,6 @@ public class AdminView extends javax.swing.JFrame {
 
         labAccount.setFont(new java.awt.Font("Gill Sans Ultra Bold", 0, 12)); // NOI18N
         labAccount.setForeground(new java.awt.Color(255, 255, 255));
-        labAccount.setText("Comptes existants : ");
         getContentPane().add(labAccount, new org.netbeans.lib.awtextra.AbsoluteConstraints(23, 250, 160, 30));
 
         labelLeft.setBackground(new java.awt.Color(4, 99, 6));
@@ -205,6 +212,11 @@ public class AdminView extends javax.swing.JFrame {
 
     private void btnExecSetPassActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnExecSetPassActionPerformed
         // TODO add your handling code here:
+        try {
+            adC.defineNewPass(this.selectedOption,jTextSetPass.getText().toString(),this);
+        } catch (SQLException e) {
+            throw new RuntimeException(e);
+        }
     }//GEN-LAST:event_btnExecSetPassActionPerformed
 
     private void jCBAccountListActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCBAccountListActionPerformed
@@ -223,17 +235,28 @@ public class AdminView extends javax.swing.JFrame {
 
     private void btnExecRenameActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnExecRenameActionPerformed
         // TODO add your handling code here:
+        try {
+            adC.renameUser(this.selectedOption,jTextSetLog.getText(),this);
+            this.repaint();
+            this.revalidate();
+        } catch (SQLException e) {
+            throw new RuntimeException(e);
+        }
     }//GEN-LAST:event_btnExecRenameActionPerformed
 
-    private void btnDeleteAccountActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnDeleteAccountActionPerformed
+    private void btnDeleteAccountActionPerformed() {//GEN-FIRST:event_btnDeleteAccountActionPerformed
         try {
             // TODO add your handling code here:
             adC.deleteAccount(this.selectedOption, this);
+            this.repaint();
+            this.revalidate();
         } catch (SQLException ex) {
             Logger.getLogger(AdminView.class.getName()).log(Level.SEVERE, null, ex);
         }
     }//GEN-LAST:event_btnDeleteAccountActionPerformed
-
+    private void btnExecRenameMouseEntered(java.awt.event.MouseEvent evt){
+        this.btnExecRename.setText("Go !");
+    }
     private void btnDeleteAccountMouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btnDeleteAccountMouseEntered
         // TODO add your handling code here:
         this.btnDeleteAccount.setText("Supprimer");
@@ -279,18 +302,22 @@ public class AdminView extends javax.swing.JFrame {
             }
         });
     }
+    // GETTER & SETTER
+
+
+    public JTextField getjTextSetLog() {return jTextSetLog;}
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     public javax.swing.JButton btnDeleteAccount;
-    private javax.swing.JButton btnExecRename;
-    private javax.swing.JButton btnExecSetPass;
+    public javax.swing.JButton btnExecRename;
+    public javax.swing.JButton btnExecSetPass;
     private javax.swing.JButton btnExitAdmin;
     private javax.swing.JLabel footer;
     private javax.swing.JLabel header;
     public javax.swing.JComboBox<String> jCBAccountList;
-    private javax.swing.JTextField jTextSetLog;
+    public javax.swing.JTextField jTextSetLog;
     private javax.swing.JTextField jTextSetPass;
-    private javax.swing.JLabel labAccount;
+    public javax.swing.JLabel labAccount;
     private javax.swing.JLabel labAccountSelected;
     private javax.swing.JLabel labIconAdmin;
     private javax.swing.JLabel labRename;
@@ -298,5 +325,6 @@ public class AdminView extends javax.swing.JFrame {
     private javax.swing.JLabel labTitleAdmin;
     private javax.swing.JLabel labWelcome;
     private javax.swing.JLabel labelLeft;
+
     // End of variables declaration//GEN-END:variables
 }

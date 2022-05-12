@@ -1,0 +1,21 @@
+
+—
+java:S1186x"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(¶ ™’
+Y
+java:S18585"C"getString" returns a string, there's no need to call "toString()".(ÉØ‡ˆ
+K
+java:S2209q"5Change this instance-reference to a static reference.(‰ëòÑ
+]
+java:S1192H"GDefine a constant instead of duplicating this literal "done !" 3 times.(àˆÃÕ
+f	java:S1171"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¾ŞÕ
+k	java:S117F"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ø“Îôúÿÿÿÿ
+f	java:S117U"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÿœ¤
+k	java:S117d"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÛáçÄşÿÿÿÿ
+e
+java:S2095U"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(ÿœ¤
+j
+java:S2095F"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(ø“Îôúÿÿÿÿ
+e
+java:S20951"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(¾ŞÕ
+j
+java:S2095d"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(ÛáçÄşÿÿÿÿ

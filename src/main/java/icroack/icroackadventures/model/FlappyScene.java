@@ -6,7 +6,6 @@ package icroack.icroackadventures.model;
 
 import icroack.icroackadventures.controler.ChronoFlappy;
 import icroack.icroackadventures.view.FlappyFrog;
-import icroack.icroackadventures.view.Game;
 import java.awt.Font;
 import java.awt.Graphics;
 import java.awt.Image;
@@ -14,8 +13,6 @@ import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
 import java.io.IOException;
 import java.util.Random;
-import java.util.logging.Level;
-import java.util.logging.Logger;
 import javax.swing.ImageIcon;
 import javax.swing.JLabel;
 import javax.swing.JPanel;
@@ -69,6 +66,8 @@ public class FlappyScene extends JPanel{
     public boolean endGame;
     
     private JLabel close;
+
+    private JLabel pressE;
     
     
     // Constructeur
@@ -117,6 +116,13 @@ public class FlappyScene extends JPanel{
             }
         });
         this.add(close);
+
+
+        this.pressE = new JLabel("Smash E !");
+        pressE.setFont(font);
+        pressE.setBounds(100,275,100,70);
+        this.add(pressE);
+
         this.fIngameScore = 0;
         
         // Dépalecement du background
@@ -216,110 +222,11 @@ public class FlappyScene extends JPanel{
             this.score++;
         }
     }
-    
-   /* public void moveCharacterMiniGame(Character ch, int moveCounter, Game g){
-        score = this.score;
-        int xPos = ch.getxPosCharacter();
-        int yPos = ch.getyPosCharacter();
-        
-        if(score >= 2){
-            if(moveCounter == 5){
-                ch.setyPosCharacter(yPos + 90);
-                g.froggyIcon.setBounds(Character.xPosCharacter, Character.yPosCharacter,80,80);
-                g.froggyIcon.repaint();
-                g.froggyIcon.revalidate();
-            }else if(moveCounter == 12){
-                ch.setyPosCharacter(yPos + 90);
-                g.froggyIcon.setBounds(Character.xPosCharacter, Character.yPosCharacter,80,80);
-                g.froggyIcon.repaint();
-                g.froggyIcon.revalidate();
-            }else if(moveCounter == 19){
-                ch.setxPosCharacter(xPos + 90);
-                g.froggyIcon.setBounds(Character.xPosCharacter, Character.yPosCharacter,80,80);
-                g.froggyIcon.repaint();
-                g.froggyIcon.revalidate();
-            }else if(moveCounter == 21){
-                ch.setyPosCharacter(yPos - 90);
-                g.froggyIcon.setBounds(Character.xPosCharacter, Character.yPosCharacter,80,80);
-                g.froggyIcon.repaint();
-                g.froggyIcon.revalidate();
-            }
-        }else if(score >= 4){
-             if(moveCounter == 5){
-                ch.setyPosCharacter(yPos + 180);
-                g.froggyIcon.setBounds(Character.xPosCharacter, Character.yPosCharacter,80,80);
-                g.froggyIcon.repaint();
-                g.froggyIcon.revalidate();
-            }else if(moveCounter == 12){
-                ch.setyPosCharacter(yPos + 180);
-                g.froggyIcon.setBounds(Character.xPosCharacter, Character.yPosCharacter,80,80);
-                g.froggyIcon.repaint();
-                g.froggyIcon.revalidate();
-            }else if(moveCounter == 19){
-                ch.setxPosCharacter(xPos + 180);
-                g.froggyIcon.setBounds(Character.xPosCharacter, Character.yPosCharacter,80,80);
-                g.froggyIcon.repaint();
-                g.froggyIcon.revalidate();
-            }else if(moveCounter == 21){
-                ch.setyPosCharacter(yPos - 180);
-                g.froggyIcon.setBounds(Character.xPosCharacter, Character.yPosCharacter,80,80);
-                g.froggyIcon.repaint();
-                g.froggyIcon.revalidate();
-            }
-        }else if(score >= 6){
-             if(moveCounter == 5){
-                ch.setyPosCharacter(yPos + 270);
-                g.froggyIcon.setBounds(Character.xPosCharacter, Character.yPosCharacter,80,80);
-                g.froggyIcon.repaint();
-                g.froggyIcon.revalidate();
-            }else if(moveCounter == 12){
-                ch.setyPosCharacter(yPos + 270);
-                g.froggyIcon.setBounds(Character.xPosCharacter, Character.yPosCharacter,80,80);
-                g.froggyIcon.repaint();
-                g.froggyIcon.revalidate();
-            }else if(moveCounter == 19){
-                ch.setxPosCharacter(xPos + 270);
-                g.froggyIcon.setBounds(Character.xPosCharacter, Character.yPosCharacter,80,80);
-                g.froggyIcon.repaint();
-                g.froggyIcon.revalidate();
-            }else if(moveCounter == 21){
-                ch.setyPosCharacter(yPos - 270);
-                g.froggyIcon.setBounds(Character.xPosCharacter, Character.yPosCharacter,80,80);
-                g.froggyIcon.repaint();
-                g.froggyIcon.revalidate();
-            }
-        }else if(score >= 8){
-            if(moveCounter == 5){
-                ch.setyPosCharacter(yPos + 360);
-                g.froggyIcon.setBounds(Character.xPosCharacter, Character.yPosCharacter,80,80);
-                g.froggyIcon.repaint();
-                g.froggyIcon.revalidate();
-            }else if(moveCounter == 12){
-                ch.setyPosCharacter(yPos + 360);
-                g.froggyIcon.setBounds(Character.xPosCharacter, Character.yPosCharacter,80,80);
-                g.froggyIcon.repaint();
-                g.froggyIcon.revalidate();
-            }else if(moveCounter == 19){
-                ch.setxPosCharacter(xPos + 360);
-                g.froggyIcon.setBounds(Character.xPosCharacter, Character.yPosCharacter,80,80);
-                g.froggyIcon.repaint();
-                g.froggyIcon.revalidate();
-            }else if(moveCounter == 21){
-                ch.setyPosCharacter(yPos - 360);
-                g.froggyIcon.setBounds(Character.xPosCharacter, Character.yPosCharacter,80,80);
-                g.froggyIcon.repaint();
-                g.froggyIcon.revalidate();
-            }
-        }
-    }*/
 
     public static int getfIngameScore() {
         return fIngameScore;
     }
-    
-    
 
-    
     // Méthode paintComponent : permet de dessiner une image sur un JPanel
     public void paintComponent(Graphics g){
        

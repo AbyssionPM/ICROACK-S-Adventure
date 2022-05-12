@@ -4,6 +4,8 @@
  */
 package icroack.icroackadventures.model;
 
+import icroack.icroackadventures.controler.ConfigReader;
+
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.ArrayList;
@@ -16,16 +18,18 @@ import java.util.Collections;
  * questions utilisées par la suite dans le QCM
  */
 public class DAOQuizz {
-        Question question; // instance de la class Question
 
+    Question question; // instance de la class Question
     private DAOIcare DAOicare;
     private java.util.ArrayList ArrayList;
+    private ConfigReader cf;
 
     // ATTRIBUT
 
     // CONSTRUCTEUR
     public DAOQuizz() throws SQLException, ClassNotFoundException {
-      this.DAOicare = new DAOIcare("icare","root","1234");
+        this.cf = new ConfigReader();
+      this.DAOicare = new DAOIcare(cf.getDbName(), cf.getLogin(), cf.getPassword());
     }
     // CONSTRUCTEUR
 
