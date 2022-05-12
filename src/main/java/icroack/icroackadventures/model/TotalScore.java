@@ -7,6 +7,8 @@ package icroack.icroackadventures.model;
 import icroack.icroackadventures.controler.ConfigReader;
 import icroack.icroackadventures.controler.ControlerQuizz;
 import icroack.icroackadventures.view.Game;
+import icroack.icroackadventures.view.ViewTicTacToe;
+
 import java.io.IOException;
 import java.sql.Connection;
 import java.sql.DriverManager;
@@ -27,12 +29,11 @@ public class TotalScore {
      * à chaque action modifiant sa valeur.
      */
     public static int totalScore;
-
     private static ConfigReader cf = new ConfigReader();
     /*
      * Constructeur de la classe
      */
-    public TotalScore(){
+    public TotalScore() throws IOException {
         this.totalScore = 0;
     }
 
@@ -47,7 +48,7 @@ public class TotalScore {
 
     // Méthode defineScore, calcul le score du joueur
     public void defineScore(Game g){
-            totalScore = FlappyScene.getfIngameScore() + ControlerQuizz.getqIngameScore() * g.getCounter();
+            totalScore = FlappyScene.getfIngameScore() + ControlerQuizz.getqIngameScore() + ViewTicTacToe.cptTotal;
     }
 
     // Méthode setLabelScore : définit le score dans un JLabel présent sur la frame Game

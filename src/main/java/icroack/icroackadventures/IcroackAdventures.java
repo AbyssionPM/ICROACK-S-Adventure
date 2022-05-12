@@ -6,7 +6,6 @@
 package icroack.icroackadventures;
 
 import icroack.icroackadventures.view.Login;
-import javax.swing.JFileChooser;
 
 /**
  *

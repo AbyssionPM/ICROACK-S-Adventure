@@ -1,6 +1,4 @@
 
-n
->src/main/java/icroack/icroackadventures/IcroackAdventures.java,2\2\22480fff10119a370118b537c96bdd8435c33e26
 m
 =src/main/java/icroack/icroackadventures/view/LeaderBoard.java,4\8\4844d5b9328ef280f7931f3d936bdc9d86b417a9
 q
@@ -17,8 +15,6 @@ s
 Csrc/main/java/icroack/icroackadventures/controler/ConfigReader.java,5\f\5fae0f477a11e8e4495fd8a5e818a02bee783391
 
 Osrc/main/java/icroack/icroackadventures/controler/ControlerAccountCreation.java,2\4\241aaefe429d4bc628f0ebb710613f6fffeb5faa
-m
-=src/main/java/icroack/icroackadventures/model/TotalScore.java,6\0\60d170ae966921d54941d57ebab8bfbd539cd26d
 B
 config/config.conf,6\a\6a7cd57a312f1df57fd4cc0a089f72404f85c099
 k

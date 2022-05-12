@@ -4,7 +4,6 @@
  */
 package icroack.icroackadventures.controler;
 
-import icroack.icroackadventures.view.ViewQuizz;
 import icroack.icroackadventures.view.ViewQuizzII;
 import java.util.concurrent.Executors;
 import java.util.concurrent.ScheduledExecutorService;

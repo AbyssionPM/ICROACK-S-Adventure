@@ -106,8 +106,8 @@ public class Character {
                     ControlerQuizz cq = new ControlerQuizz();
                     cq.start();
                 }else{
-                    TicTacToe ticTacToe = new TicTacToe();
-                    ticTacToe.fenetre();
+                    ViewTicTacToe vt = new ViewTicTacToe();
+                    vt.fenetre();
                 }
                 moveCounter = 5;
                 Character.xPosCharacter = 623;
@@ -132,8 +132,8 @@ public class Character {
                     ControlerQuizz cq = new ControlerQuizz();
                     cq.start();
                 }else{
-                    TicTacToe ticTacToe = new TicTacToe();
-                    ticTacToe.fenetre();
+                    ViewTicTacToe vt = new ViewTicTacToe();
+                    vt.fenetre();
                 }
                 Character.xPosCharacter = 623;
                 Character.yPosCharacter = 120;
@@ -164,8 +164,8 @@ public class Character {
                     ControlerQuizz cq = new ControlerQuizz();
                     cq.start();
                 }else{
-                    TicTacToe ticTacToe = new TicTacToe();
-                    ticTacToe.fenetre();
+                    ViewTicTacToe vt = new ViewTicTacToe();
+                    vt.fenetre();
                 }
                 moveCounter = 12;
                 Character.xPosCharacter = 263;
@@ -190,8 +190,8 @@ public class Character {
                     ControlerQuizz cq = new ControlerQuizz();
                     cq.start();
                 }else{
-                    TicTacToe ticTacToe = new TicTacToe();
-                    ticTacToe.fenetre();
+                    ViewTicTacToe vt = new ViewTicTacToe();
+                    vt.fenetre();
                 }
                 Character.xPosCharacter = 263;
                 Character.yPosCharacter = 390;
@@ -233,8 +233,8 @@ public class Character {
                     ControlerQuizz cq = new ControlerQuizz();
                     cq.start();
                 }else{
-                    TicTacToe ticTacToe = new TicTacToe();
-                    ticTacToe.fenetre();
+                    ViewTicTacToe vt = new ViewTicTacToe();
+                    vt.fenetre();
                 }
                 Character.xPosCharacter = 713;
                 Character.yPosCharacter = 570;
@@ -252,8 +252,8 @@ public class Character {
                     ControlerQuizz cq = new ControlerQuizz();
                     cq.start();
                 }else{
-                    TicTacToe ticTacToe = new TicTacToe();
-                    ticTacToe.fenetre();
+                    ViewTicTacToe vt = new ViewTicTacToe();
+                    vt.fenetre();
                 }
                 Character.xPosCharacter = 803;
                 Character.yPosCharacter = 480;
