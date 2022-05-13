@@ -1,0 +1,66 @@
+
+p	java:S116è"URename this field "TitlePause" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ï’¤êþÿÿÿÿ
+u
+java:S1450è"YRemove the "TitlePause" field and declare it as a local variable in the relevant methods.(Ï’¤êþÿÿÿÿ
+l
+java:S1450é"VRemove the "bgPause" field and declare it as a local variable in the relevant methods.(ÒçÊ[
+P	java:S125'"<This block of commented-out lines of code should be removed.(°ö„g
+P
+java:S1161F":Add the "@Override" annotation above this method signature(†ŒË³
+P
+java:S1161I":Add the "@Override" annotation above this method signature(—¶Ðé
+U
+java:S1161L":Add the "@Override" annotation above this method signature(™ÅšÊûÿÿÿÿ
+P
+java:S1161U":Add the "@Override" annotation above this method signature(†ŒË³
+P
+java:S1161X":Add the "@Override" annotation above this method signature(—¶Ðé
+U
+java:S1161[":Add the "@Override" annotation above this method signature(™ÅšÊûÿÿÿÿ
+P
+java:S1161d":Add the "@Override" annotation above this method signature(†ŒË³
+P
+java:S1161g":Add the "@Override" annotation above this method signature(—¶Ðé
+U
+java:S1161j":Add the "@Override" annotation above this method signature(™ÅšÊûÿÿÿÿ
+E
+java:S1172x"*Remove this unused method parameter "evt".(ô€†ûÿÿÿÿ
+]
+java:S5738|"HRemove this call to a deprecated method, it has been marked for removal.(¢·ûk
+E
+java:S1172"*Remove this unused method parameter "evt".(Žþ´ÿÿÿÿÿ
+Q
+java:S2209Œ"5Change this instance-reference to a static reference.(æûÖþÿÿÿÿ
+d
+java:S5738Œ"HRemove this call to a deprecated method, it has been marked for removal.(æûÖþÿÿÿÿ
+L
+java:S2209"5Change this instance-reference to a static reference.(¼ÔØ›
+L
+java:S2209"5Change this instance-reference to a static reference.(¼ÔØ›
+Q
+java:S2209Ž"5Change this instance-reference to a static reference.(­ÍÓ€ûÿÿÿÿ
+Q
+java:S2209Ž"5Change this instance-reference to a static reference.(­ÍÓ€ûÿÿÿÿ
+F
+java:S1172¥"*Remove this unused method parameter "evt".(äØÿÎüÿÿÿÿ
+A
+java:S1172§"*Remove this unused method parameter "evt".(´º
+A
+java:S1172¬"*Remove this unused method parameter "evt".(¼®Ó£
+@
+java:S1172±"*Remove this unused method parameter "evt".(™¼£M
+F
+java:S1172¶"*Remove this unused method parameter "evt".(¶ˆ»Óþÿÿÿÿ
+F
+java:S1172»"*Remove this unused method parameter "evt".(äÂ™úÿÿÿÿ
+A
+java:S1172À"*Remove this unused method parameter "evt".(ØÕþÐ
+F
+java:S1197È"*Move the array designators [] to the type.(¡þÏÖøÿÿÿÿ
+\
+java:S2147×"ECombine this catch with the one at line 213, which has the same body.(¨¦Š½
+\
+java:S2147Ù"ECombine this catch with the one at line 213, which has the same body.(ã€ 
+[
+java:S2147Û"ECombine this catch with the one at line 213, which has the same body.(ñÎ¯%
+W	java:S125á"<This block of commented-out lines of code should be removed.(¡ôÈÃýÿÿÿÿ

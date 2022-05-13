@@ -1,0 +1,29 @@
+
+C
+java:S1604>"(Make this anonymous inner class a lambda(…æ©âÿÿÿÿÿ
+C
+java:S1604l"(Make this anonymous inner class a lambda(¨í¡§úÿÿÿÿ
+o	java:S116t"ZRename this field "BackGroundLabel" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¼›øÆ
+i	java:S116u"TRename this field "ErrorLogo" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(èì
+i	java:S116v"TRename this field "Errortext" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(×ó í
+l	java:S116w"RRename this field "OsCourt" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ƒ‘ÏØûÿÿÿÿ
+t
+java:S1450t"^Remove the "BackGroundLabel" field and declare it as a local variable in the relevant methods.(¼›øÆ
+n
+java:S1450u"XRemove the "ErrorLogo" field and declare it as a local variable in the relevant methods.(èì
+n
+java:S1450v"XRemove the "Errortext" field and declare it as a local variable in the relevant methods.(×ó í
+q
+java:S1450w"VRemove the "OsCourt" field and declare it as a local variable in the relevant methods.(ƒ‘ÏØûÿÿÿÿ
+m
+java:S1450x"WRemove the "jButton1" field and declare it as a local variable in the relevant methods.(å……¶
+E
+java:S1172N"*Remove this unused method parameter "evt".(¾§Ø­úÿÿÿÿ
+E
+java:S1197S"*Move the array designators [] to the type.(¡şÏÖøÿÿÿÿ
+Z
+java:S2147b"DCombine this catch with the one at line 96, which has the same body.(¨¦Š½
+Z
+java:S2147d"DCombine this catch with the one at line 96, which has the same body.(ã€ 
+Y
+java:S2147f"DCombine this catch with the one at line 96, which has the same body.(ñÎ¯%

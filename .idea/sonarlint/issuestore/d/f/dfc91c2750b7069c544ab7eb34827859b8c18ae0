@@ -1,0 +1,8 @@
+
+?
+java:S2140"")Use "java.util.Random.nextInt()" instead.(Æ‡ðŸ
+c	java:S100+"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ç¦»Ò
+<	java:S131-""Add a default case to this switch.(¿ÂÐ¥üÿÿÿÿ
+Q	java:S1255"<This block of commented-out lines of code should be removed.(ß…Û±
+Z
+java:S1128"ERemove this unused import 'icroack.icroackadventures.view.ViewTimer'.(½°ëh

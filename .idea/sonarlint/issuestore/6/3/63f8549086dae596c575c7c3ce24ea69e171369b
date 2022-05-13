@@ -1,0 +1,25 @@
+
+D
+java:S1604‹"(Make this anonymous inner class a lambda(¨í¡§úÿÿÿÿ
+r
+java:S1450”"VRemove the "jLabel2" field and declare it as a local variable in the relevant methods.(™úòˆüÿÿÿÿ
+m
+java:S1450–"VRemove the "jLabel5" field and declare it as a local variable in the relevant methods.(ó Ù®
+c	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ç¦»Ò
+<	java:S131""Add a default case to this switch.(þú÷ÿÿÿÿÿ
+P
+java:S1161B":Add the "@Override" annotation above this method signature(†ŒË³
+@
+java:S1172j"*Remove this unused method parameter "evt".(ÒÍÙˆ
+M
+java:S1135k"2Complete the task associated to this TODO comment.(ÜÀ†áûÿÿÿÿ
+E
+java:S1197r"*Move the array designators [] to the type.(¡þÏÖøÿÿÿÿ
+\
+java:S2147"ECombine this catch with the one at line 127, which has the same body.(¨¦Š½
+\
+java:S2147ƒ"ECombine this catch with the one at line 127, which has the same body.(ã€ 
+[
+java:S2147…"ECombine this catch with the one at line 127, which has the same body.(ñÎ¯%
+g
+java:S1128"ERemove this unused import 'icroack.icroackadventures.model.RollDice'.(¿ÜëÆùÿÿÿÿ8ºÿöí‹0

@@ -1,0 +1,71 @@
+
+p
+java:S1192;"UDefine a constant instead of duplicating this literal "Gill Sans Ultra Bold" 5 times.(™‰¶®şÿÿÿÿ
+g	java:S117š"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ïß·ÿ
+l	java:S117£"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ç·ü™ÿÿÿÿÿ
+C
+java:S1604>"(Make this anonymous inner class a lambda(©Ä€Æüÿÿÿÿ
+C
+java:S1604H"(Make this anonymous inner class a lambda(ÉÑø“üÿÿÿÿ
+l
+java:S1104Î"UMake btn_false a static final constant or non-public and provide accessors if needed.(ùÌÙŸ
+j
+java:S1104Ï"TMake btn_true a static final constant or non-public and provide accessors if needed.(ÈÙ·0
+m
+java:S1104Ğ"QMake count a static final constant or non-public and provide accessors if needed.(ò‡ó¼üÿÿÿÿ
+p
+java:S1104Ó"YMake labQuizzClose a static final constant or non-public and provide accessors if needed.(¨Ş©
+F
+java:S1444Î"/Make this "public static btn_false" field final(ùÌÙŸ
+D
+java:S1444Ï".Make this "public static btn_true" field final(ÈÙ·0
+k
+java:S3008Î"TRename this field "btn_false" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ùÌÙŸ
+i
+java:S3008Ï"SRename this field "btn_true" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÈÙ·0
+r
+java:S1450Ñ"VRemove the "jLabel2" field and declare it as a local variable in the relevant methods.(™úòˆüÿÿÿÿ
+w
+java:S1450Ò"[Remove the "jScrollPane1" field and declare it as a local variable in the relevant methods.(¤á×ÿÿÿÿÿ
+:
+java:S1948"$Make "cq" transient or serializable.(÷Ğ‹ç
+:
+java:S1948"$Make "fc" transient or serializable.(¦±ß¯
+Q
+java:S26960"6Make the enclosing method "static" or remove this set.(Ç¸˜ÿÿÿÿÿ
+L
+java:S26961"6Make the enclosing method "static" or remove this set.(ƒ—Ÿ
+P
+java:S1161d":Add the "@Override" annotation above this method signature(†ŒË³
+d	java:S100˜"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ğÙø—
+A
+java:S1172˜"*Remove this unused method parameter "evt".(ğÙø—
+N
+java:S1135™"2Complete the task associated to this TODO comment.(ÜÀ†áûÿÿÿÿ
+d	java:S100¡"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(àáÎ
+A
+java:S1172¡"*Remove this unused method parameter "evt".(àáÎ
+N
+java:S1135¢"2Complete the task associated to this TODO comment.(ÜÀ†áûÿÿÿÿ
+F
+java:S1172ª"*Remove this unused method parameter "evt".(Ù´Öâùÿÿÿÿ
+N
+java:S1135«"2Complete the task associated to this TODO comment.(ÜÀ†áûÿÿÿÿ
+d
+java:S5738­"HRemove this call to a deprecated method, it has been marked for removal.(ÌİêÆûÿÿÿÿ
+F
+java:S1197³"*Move the array designators [] to the type.(¡şÏÖøÿÿÿÿ
+\
+java:S2147Â"ECombine this catch with the one at line 192, which has the same body.(¨¦Š½
+\
+java:S2147Ä"ECombine this catch with the one at line 192, which has the same body.(ã€ 
+[
+java:S2147Æ"ECombine this catch with the one at line 192, which has the same body.(ñÎ¯%
+E
+java:S1128"/Remove this unused import 'javax.swing.JLabel'.(ı—àÓ
+M
+java:S1128"2Remove this unused import 'javax.swing.JTextPane'.(ŸÉù¿ùÿÿÿÿ
+P
+java:S1128":Remove this unused import 'javax.swing.text.DefaultCaret'.(¢Î”ş
+<
+java:S1068"&Remove this unused "fc" private field.(¦±ß¯

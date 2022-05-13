@@ -1,0 +1,52 @@
+
+h	java:S112Â"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8ú€úá‹0
+k
+java:S1192>"UDefine a constant instead of duplicating this literal "Gill Sans Ultra Bold" 6 times.(¥˜õ¨
+>
+java:S1604U"(Make this anonymous inner class a lambda(èû Š
+C
+java:S1604a"(Make this anonymous inner class a lambda(Ó€Óƒÿÿÿÿÿ
+D
+java:S1604ã"(Make this anonymous inner class a lambda(¨í¡§úÿÿÿÿ
+{
+java:S1450ë"_Remove the "btnCreateAccount" field and declare it as a local variable in the relevant methods.(«ƒ±³ÿÿÿÿÿ
+
+java:S1450ì"\Remove the "btnExitCreate" field and declare it as a local variable in the relevant methods.(°ç¥£üÿÿÿÿ8ğÔé‹0
+r
+java:S1450í"VRemove the "jLabel1" field and declare it as a local variable in the relevant methods.(°ãÉ¸ÿÿÿÿÿ
+r
+java:S1450î"VRemove the "jLabel2" field and declare it as a local variable in the relevant methods.(™úòˆüÿÿÿÿ
+r
+java:S1450ï"VRemove the "jLabel3" field and declare it as a local variable in the relevant methods.(Îä€øÿÿÿÿ
+m
+java:S1450ğ"VRemove the "jLabel4" field and declare it as a local variable in the relevant methods.(«¢•ã
+V
+java:S3252E"AUse static access with "javax.swing.SwingConstants" for "CENTER".(Ãû˜7
+\
+java:S3252I"AUse static access with "javax.swing.SwingConstants" for "CENTER".(Ô¾û×ûÿÿÿÿ
+\
+java:S3252i"AUse static access with "javax.swing.SwingConstants" for "CENTER".(ˆ»õÏøÿÿÿÿ
+N
+java:S1854®"7Remove this useless assignment to local variable "cac".(Ï»º‚
+F
+java:S1172¢"*Remove this unused method parameter "evt".(ÿ”„àùÿÿÿÿ
+]
+java:S1858ª"A"getText" returns a string, there's no need to call "toString()".(¡Ê„úùÿÿÿÿ
+K
+java:S1874ª"/Remove this use of "getText"; it is deprecated.(¡Ê„úùÿÿÿÿ
+F
+java:S1874«"/Remove this use of "getText"; it is deprecated.(úä…Ò
+\
+java:S2147±"ECombine this catch with the one at line 175, which has the same body.(À‹ø„
+?
+java:S1481®"(Remove this unused "cac" local variable.(Ï»º‚
+H
+java:S1172¶"*Remove this unused method parameter "evt".(“ÌàÛ8Ş­Åé‹0
+F
+java:S1197Ê"*Move the array designators [] to the type.(¡şÏÖøÿÿÿÿ
+\
+java:S2147Ù"ECombine this catch with the one at line 215, which has the same body.(¨¦Š½
+\
+java:S2147Û"ECombine this catch with the one at line 215, which has the same body.(ã€ 
+[
+java:S2147İ"ECombine this catch with the one at line 215, which has the same body.(ñÎ¯%

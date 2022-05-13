@@ -1,0 +1,102 @@
+
+n
+java:S2293$"YReplace the type specification in this constructor call with the diamond operator ("<>").(€¶Ä
+t
+java:S2293%"YReplace the type specification in this constructor call with the diamond operator ("<>").(ƒÜ¡Þýÿÿÿÿ
+‹
+java:S1319("pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(ã—Óôøÿÿÿÿ
+…
+java:S1319,"jThe type of "squareList" should be an interface such as "List" rather than the implementation "ArrayList".(ÞâéŸúÿÿÿÿ
+‹
+java:S13190"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(ó¦Ÿ¶øÿÿÿÿ
+
+java:S13194"iThe type of "labelList" should be an interface such as "List" rather than the implementation "ArrayList".(±µñŠ
+<
+java:S3010$"'Remove this assignment of "squareList".(€¶Ä
+A
+java:S3010%"&Remove this assignment of "labelList".(ƒÜ¡Þýÿÿÿÿ
+J
+java:S2209$"5Change this instance-reference to a static reference.(€¶Ä
+P
+java:S2209%"5Change this instance-reference to a static reference.(ƒÜ¡Þýÿÿÿÿ
+L
+java:S2696?"6Make the enclosing method "static" or remove this set.(ºõ ë
+K
+java:S2209?"5Change this instance-reference to a static reference.(ºõ ë
+Q
+java:S2696E"6Make the enclosing method "static" or remove this set.(—Ä°ùÿÿÿÿ
+P
+java:S2209E"5Change this instance-reference to a static reference.(—Ä°ùÿÿÿÿ
+D
+java:S2140L")Use "java.util.Random.nextInt()" instead.(÷¶ìÿÿÿÿÿ
+Q
+java:S2209"5Change this instance-reference to a static reference.(úÎÆçøÿÿÿÿ
+Q
+java:S2209‚"5Change this instance-reference to a static reference.(¯ÒÏÙøÿÿÿÿ
+L
+java:S2209ƒ"5Change this instance-reference to a static reference.(¶Ì”
+K
+java:S2209„"5Change this instance-reference to a static reference.(»ô¹?
+L
+java:S2209…"5Change this instance-reference to a static reference.(¿ÿñÏ
+Q
+java:S2209†"5Change this instance-reference to a static reference.(À¢ãôûÿÿÿÿ
+Q
+java:S2209‡"5Change this instance-reference to a static reference.(›½ìùÿÿÿÿ
+L
+java:S2209ˆ"5Change this instance-reference to a static reference.(²¢ØÍ
+L
+java:S2209‰"5Change this instance-reference to a static reference.(Ç¹µý
+L
+java:S2209Š"5Change this instance-reference to a static reference.(íóìù
+L
+java:S2209‹"5Change this instance-reference to a static reference.(ÃõðÁ
+L
+java:S2209Œ"5Change this instance-reference to a static reference.(Ä‚Æ½
+L
+java:S2209"5Change this instance-reference to a static reference.(þúÃÙ
+K
+java:S2209Ž"5Change this instance-reference to a static reference.(”Œ­=
+L
+java:S2209"5Change this instance-reference to a static reference.(­Ð¸Ä
+Q
+java:S2209"5Change this instance-reference to a static reference.(»´ß¯ÿÿÿÿÿ
+Q
+java:S2209‘"5Change this instance-reference to a static reference.(ð³úÕþÿÿÿÿ
+L
+java:S2209’"5Change this instance-reference to a static reference.(ÁË»°
+L
+java:S2209“"5Change this instance-reference to a static reference.(¯û±Ž
+L
+java:S2209”"5Change this instance-reference to a static reference.(ÑÉ´þ
+Q
+java:S2209•"5Change this instance-reference to a static reference.(Ê–äáùÿÿÿÿ
+Q
+java:S2209–"5Change this instance-reference to a static reference.(´â¢úÿÿÿÿ
+Q
+java:S2209—"5Change this instance-reference to a static reference.(øàºúÿÿÿÿ
+Q
+java:S2209˜"5Change this instance-reference to a static reference.(‹«±øÿÿÿÿ
+L
+java:S2209™"5Change this instance-reference to a static reference.(êÂ¸ø
+‚
+java:S1130œ"lRemove the declaration of thrown exception 'java.io.IOException', as it cannot be thrown from method's body.(ÇÄÑ
+L
+java:S2209°"5Change this instance-reference to a static reference.(ï‘Êâ
+=	java:S131±""Add a default case to this switch.(•ýç­þÿÿÿÿ
+Q
+java:S2209±"5Change this instance-reference to a static reference.(•ýç­þÿÿÿÿ
+Q
+java:S2209²"5Change this instance-reference to a static reference.(ç§øÿÿÿÿ
+Q
+java:S2209³"5Change this instance-reference to a static reference.(Ñý’£üÿÿÿÿ
+L
+java:S2209´"5Change this instance-reference to a static reference.(”ÇÎ·
+Q
+java:S2209µ"5Change this instance-reference to a static reference.(ÈÛÔþÿÿÿÿ
+Q
+java:S2209¶"5Change this instance-reference to a static reference.(Å‰ÀÖùÿÿÿÿ
+Q
+java:S2209·"5Change this instance-reference to a static reference.(Î„˜öúÿÿÿÿ
+8
+java:S1116¸"Remove this empty statement.(ôŸŽìúÿÿÿÿ

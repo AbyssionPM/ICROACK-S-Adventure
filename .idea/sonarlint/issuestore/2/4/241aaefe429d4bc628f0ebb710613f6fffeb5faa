@@ -1,0 +1,9 @@
+
+g	java:S112r"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8ùªóá‹0
+f	java:S117@"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ä…¯¦
+k	java:S117E"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¤ÐÌàüÿÿÿÿ
+j
+java:S2095E"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(¤ÐÌàüÿÿÿÿ
+e
+java:S2095@"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(ä…¯¦
+m	java:S116"SRename this field "DAOicare" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ã¦‡…øÿÿÿÿ

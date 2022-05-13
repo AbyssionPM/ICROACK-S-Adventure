@@ -1,0 +1,89 @@
+
+a	java:S112ë"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ
+a	java:S112‹"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ
+q
+java:S1192R"VDefine a constant instead of duplicating this literal "Gill Sans Ultra Bold" 13 times.(ÁÎ®ûûÿÿÿÿ
+>
+java:S1604]"(Make this anonymous inner class a lambda(ƒåî‚
+=
+java:S1604b"(Make this anonymous inner class a lambda(·ê!
+>
+java:S1604t"(Make this anonymous inner class a lambda(õâàì
+?
+java:S1604"(Make this anonymous inner class a lambda(ó­“À
+?
+java:S1604¬"(Make this anonymous inner class a lambda(”÷±Œ
+D
+java:S1604¹"(Make this anonymous inner class a lambda(†Ï¦Óøÿÿÿÿ
+D
+java:S1604À"(Make this anonymous inner class a lambda(¨í¡§úÿÿÿÿ
+u
+java:S1104"ZMake selectedOption a static final constant or non-public and provide accessors if needed.(æš¿ùÿÿÿÿ
+s
+java:S1104Ò"\Make btnDeleteAccount a static final constant or non-public and provide accessors if needed.(ñä½ª
+p
+java:S1104Ó"YMake btnExecRename a static final constant or non-public and provide accessors if needed.(åêÂÊ
+q
+java:S1104Ô"ZMake btnExecSetPass a static final constant or non-public and provide accessors if needed.(µ¥
+v
+java:S1104Ø"ZMake jCBAccountList a static final constant or non-public and provide accessors if needed.(éÄò¹ıÿÿÿÿ
+s
+java:S1104Ù"WMake jTextSetLog a static final constant or non-public and provide accessors if needed.(Ñ€¤Šüÿÿÿÿ
+l
+java:S1104Û"VMake labAccount a static final constant or non-public and provide accessors if needed.(³’Ú
+¤
+java:S1186ö"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ƒ„»İøÿÿÿÿ8şÖê‹0
+r
+java:S1450Õ"[Remove the "btnExitAdmin" field and declare it as a local variable in the relevant methods.(­´ù’
+l
+java:S1450Ö"URemove the "footer" field and declare it as a local variable in the relevant methods.(Îèä˜
+k
+java:S1450×"URemove the "header" field and declare it as a local variable in the relevant methods.(İİj
+x
+java:S1450Ü"aRemove the "labAccountSelected" field and declare it as a local variable in the relevant methods.(şû˜¢
+w
+java:S1450İ"[Remove the "labIconAdmin" field and declare it as a local variable in the relevant methods.(Ùüç•ùÿÿÿÿ
+o
+java:S1450Ş"XRemove the "labRename" field and declare it as a local variable in the relevant methods.(ªÉ„è
+u
+java:S1450ß"YRemove the "labSetPass" field and declare it as a local variable in the relevant methods.(ˆçúùúÿÿÿÿ
+s
+java:S1450à"\Remove the "labTitleAdmin" field and declare it as a local variable in the relevant methods.(ÏÂœ
+p
+java:S1450á"YRemove the "labWelcome" field and declare it as a local variable in the relevant methods.(šÄŠì
+o
+java:S1450â"XRemove the "labelLeft" field and declare it as a local variable in the relevant methods.(Úô›·
+@
+java:S1948"%Make "adC" transient or serializable.(ÛŸÑüÿÿÿÿ
+P
+java:S1161p":Add the "@Override" annotation above this method signature(—¶Ğé
+X
+java:S3252Š"AUse static access with "javax.swing.SwingConstants" for "CENTER".(î–…Ú
+X
+java:S3252"AUse static access with "javax.swing.SwingConstants" for "CENTER".(´Õõ
+Q
+java:S1161¨":Add the "@Override" annotation above this method signature(—¶Ğé
+F
+java:S1172ß"*Remove this unused method parameter "evt".(ñ“ıâúÿÿÿÿ
+F
+java:S1172ï"*Remove this unused method parameter "evt".(‚Ä„úÿÿÿÿ
+F
+java:S1172ö"*Remove this unused method parameter "evt".(ƒ„»İøÿÿÿÿ
+F
+java:S1172ø"*Remove this unused method parameter "evt".(Ò´Ü¿úÿÿÿÿ
+F
+java:S1172ı"*Remove this unused method parameter "evt".(²¯‹°üÿÿÿÿ
+F
+java:S1172Ÿ"*Remove this unused method parameter "evt".(Û°…Ÿÿÿÿÿÿ
+A
+java:S1172¢"*Remove this unused method parameter "evt".(ÊÑË¬
+F
+java:S1197§"*Move the array designators [] to the type.(¡şÏÖøÿÿÿÿ
+\
+java:S2147¶"ECombine this catch with the one at line 308, which has the same body.(¨¦Š½
+\
+java:S2147¸"ECombine this catch with the one at line 308, which has the same body.(ã€ 
+[
+java:S2147º"ECombine this catch with the one at line 308, which has the same body.(ñÎ¯%
+\
+java:S2147Æ"ECombine this catch with the one at line 324, which has the same body.(Ö¨š•

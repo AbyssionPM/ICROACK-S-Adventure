@@ -1,0 +1,65 @@
+
+a	java:S112Š"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ
+p
+java:S1192L"UDefine a constant instead of duplicating this literal "Gill Sans Ultra Bold" 6 times.(î°İøÿÿÿÿ
+>
+java:S1604T"(Make this anonymous inner class a lambda(¦ÀíÂ
+>
+java:S1604a"(Make this anonymous inner class a lambda(«ğãã
+>
+java:S1604m"(Make this anonymous inner class a lambda(èû Š
+D
+java:S1604‚"(Make this anonymous inner class a lambda(ñ¨Àúÿÿÿÿ
+D
+java:S1604…"(Make this anonymous inner class a lambda(¨í¡§úÿÿÿÿ
+
+java:S1186¸"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ªÔâúÿÿÿÿ
+{
+java:S1450–"_Remove the "btnCreateAccount" field and declare it as a local variable in the relevant methods.(«ƒ±³ÿÿÿÿÿ
+r
+java:S1450—"VRemove the "btnExit" field and declare it as a local variable in the relevant methods.(¾Üø˜ıÿÿÿÿ
+n
+java:S1450•"WRemove the "btnLogin" field and declare it as a local variable in the relevant methods.(Œ¨ëå
+u
+java:S1450™"YRemove the "labIconLog" field and declare it as a local variable in the relevant methods.(Ô‚ª³ÿÿÿÿÿ
+v
+java:S1450š"ZRemove the "labIconPass" field and declare it as a local variable in the relevant methods.(Î‡Èûÿÿÿÿ
+q
+java:S1450˜"ZRemove the "labTitleLog" field and declare it as a local variable in the relevant methods.(£ûêà
+>
+java:S1948%"#Make "p" transient or serializable.(ÊÌ­óüÿÿÿÿ
+Q	java:S125("<This block of commented-out lines of code should be removed.(ıÜÂ†
+W
+java:S3252S"AUse static access with "javax.swing.SwingConstants" for "CENTER".(Ÿî…ã
+W
+java:S3252y"AUse static access with "javax.swing.SwingConstants" for "CENTER".(å‘Ëº
+F
+java:S1172¸"*Remove this unused method parameter "evt".(ªÔâúÿÿÿÿ
+A
+java:S1172º"*Remove this unused method parameter "evt".(—è†
+A
+java:S1172¿"*Remove this unused method parameter "evt".(…äã¶
+a
+java:S2147Ù"ECombine this catch with the one at line 216, which has the same body.(îïõùÿÿÿÿ
+h
+java:S2147Ú"ECombine this catch with the one at line 216, which has the same body.(šÉ©’şÿÿÿÿ8ôÌœå‹0
+]
+java:S1858Ï"A"getText" returns a string, there's no need to call "toString()".(¾¥À¢øÿÿÿÿ
+]
+java:S1858Ğ"A"getText" returns a string, there's no need to call "toString()".(ÁÊôÿÿÿÿÿ
+K
+java:S1874Ğ"/Remove this use of "getText"; it is deprecated.(ÁÊôÿÿÿÿÿ
+F
+java:S1172İ"*Remove this unused method parameter "evt".(ÿ”„àùÿÿÿÿ
+F
+java:S1197í"*Move the array designators [] to the type.(¡şÏÖøÿÿÿÿ
+\
+java:S2147ü"ECombine this catch with the one at line 250, which has the same body.(¨¦Š½
+\
+java:S2147ş"ECombine this catch with the one at line 250, which has the same body.(ã€ 
+[
+java:S2147€"ECombine this catch with the one at line 250, which has the same body.(ñÎ¯%
+Q
+java:S1128"4Remove this unused import 'java.util.logging.Level'.(…µÛ¶8şÌœå‹0
+R
+java:S1128"5Remove this unused import 'java.util.logging.Logger'.(ƒ¥óš8şÌœå‹0

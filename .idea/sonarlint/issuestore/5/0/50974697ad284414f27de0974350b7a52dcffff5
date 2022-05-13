@@ -1,0 +1,47 @@
+
+q
+java:S1104 "VMake totalScore a static final constant or non-public and provide accessors if needed.(ˆÚÌşÿÿÿÿ
+v
+java:S1104("YMake connectedUser a static final constant or non-public and provide accessors if needed.(…èğÔ8ïŠêâ‹0
+u
+java:S1104)"SMake isAdmin a static final constant or non-public and provide accessors if needed.(  òûÿÿÿÿ8¯‘¸ã‹0
+K
+java:S1444 "0Make this "public static totalScore" field final(ˆÚÌşÿÿÿÿ
+P
+java:S1444("3Make this "public static connectedUser" field final(…èğÔ8ñ­ëâ‹0
+O
+java:S1444)"-Make this "public static isAdmin" field final(  òûÿÿÿÿ8°‘¸ã‹0
+c
+java:S2095Y"HUse try-with-resources or close this "Connection" in a "finally" clause.(ôÛ¬¥øÿÿÿÿ
+b
+java:S2095Z"GUse try-with-resources or close this "Statement" in a "finally" clause.(é°Áµşÿÿÿÿ
+
+java:S41650"kRemove this useless assignment; "connectedUser" already holds the assigned value along all execution paths.(…ƒ×‰
+=
+java:S3010/"'Remove this assignment of "totalScore".(½‹–¥
+G
+java:S30100"*Remove this assignment of "connectedUser".(…ƒ×‰8ş­ëâ‹0
+F
+java:S30101"$Remove this assignment of "isAdmin".(Œúçëùÿÿÿÿ8¾‘¸ã‹0
+K
+java:S2209/"5Change this instance-reference to a static reference.(½‹–¥
+K
+java:S22090"5Change this instance-reference to a static reference.(…ƒ×‰
+P
+java:S22091"5Change this instance-reference to a static reference.(Œúçëùÿÿÿÿ
+Q
+java:S26969"6Make the enclosing method "static" or remove this set.(í´Üşÿÿÿÿ
+W
+java:S22099"5Change this instance-reference to a static reference.(í´Üşÿÿÿÿ8€®ëâ‹0
+S
+java:S2696<"6Make the enclosing method "static" or remove this set.(ó¤÷€8€®ëâ‹0
+R
+java:S2209<"5Change this instance-reference to a static reference.(ó¤÷€8‚®ëâ‹0
+X
+java:S2696>"6Make the enclosing method "static" or remove this set.(ïÄŒ²úÿÿÿÿ8Â‘¸ã‹0
+L
+java:S2696B"6Make the enclosing method "static" or remove this set.(ğ×İ
+R
+java:S2209H"5Change this instance-reference to a static reference.(óÂ•8Ä‘¸ã‹0
+E
+java:S16560"/Remove or correct this useless self-assignment.(…ƒ×‰

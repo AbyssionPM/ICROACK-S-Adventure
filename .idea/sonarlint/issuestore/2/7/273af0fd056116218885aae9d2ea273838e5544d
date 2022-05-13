@@ -1,0 +1,21 @@
+
+d
+java:S1104"NMake tt a static final constant or non-public and provide accessors if needed.(İïß
+>
+java:S1444"(Make this "public static tt" field final(İïß
+5
+java:S3010"Remove this assignment of "tt".(éöš
+K
+java:S2209"5Change this instance-reference to a static reference.(éöš
+F
+java:S2446"0"notify" may not wake up the appropriate thread.(á£å¨
+f
+java:S2236"PRefactor the synchronisation mechanism to not use a Thread instance as a monitor(á£å¨
+{
+java:S2273"eMove this call to "notify()" into a synchronized block to be sure the monitor on "TimerTime" is held.(á£å¨
+k
+java:S2236"PRefactor the synchronisation mechanism to not use a Thread instance as a monitor(¶İîüùÿÿÿÿ
+~
+java:S2273"cMove this call to "wait()" into a synchronized block to be sure the monitor on "TimerTime" is held.(¶İîüùÿÿÿÿ
+U
+java:S2274":Remove this call to "wait" or move it into a "while" loop.(¶İîüùÿÿÿÿ

@@ -1,0 +1,129 @@
+
+R
+java:S1066ö"/Merge this if statement with the enclosing one.(ı§„æûÿÿÿÿ8ÃĞåÅ‹0
+M
+java:S1066æ"/Merge this if statement with the enclosing one.(›Îøİ8ÄĞåÅ‹0
+w
+java:S1104"UMake Firstgame a static final constant or non-public and provide accessors if needed.(«èüÚùÿÿÿÿ8ÇĞåÅ‹0
+u
+java:S1104"SMake playerX a static final constant or non-public and provide accessors if needed.(¥Ú‡×şÿÿÿÿ8ÊĞåÅ‹0
+q
+java:S1104"TMake playerIA a static final constant or non-public and provide accessors if needed.(î§ğÉ8ËĞåÅ‹0
+k
+java:S1104"NMake IA a static final constant or non-public and provide accessors if needed.(Å½ûÑ8ÌĞåÅ‹0
+q
+java:S1104"TMake gameDone a static final constant or non-public and provide accessors if needed.(œ…‚Ï8ÍĞåÅ‹0
+o
+java:S1104"RMake winner a static final constant or non-public and provide accessors if needed.(ñÂÃó8ÍĞåÅ‹0
+v
+java:S1104"TMake nbPartie a static final constant or non-public and provide accessors if needed.(¦ëû”ûÿÿÿÿ8ÍĞåÅ‹0
+v
+java:S1104"TMake cptTotal a static final constant or non-public and provide accessors if needed.(ôÉìÀûÿÿÿÿ8ÍĞåÅ‹0
+y
+java:S1104"WMake player1wins a static final constant or non-public and provide accessors if needed.(“ù‹±øÿÿÿÿ8ÍĞåÅ‹0
+t
+java:S1104 "WMake player2wins a static final constant or non-public and provide accessors if needed.(òşàş8ÍĞåÅ‹0
+s
+java:S1104#"QMake board a static final constant or non-public and provide accessors if needed.(Ï¨Õ™ûÿÿÿÿ8ÍĞåÅ‹0
+r
+java:S1104&"UMake lineWidth a static final constant or non-public and provide accessors if needed.(À†›û8ÍĞåÅ‹0
+x
+java:S1104'"VMake lineLength a static final constant or non-public and provide accessors if needed.(÷”Ï¹ÿÿÿÿÿ8ÍĞåÅ‹0
+o
+java:S1104("MMake x a static final constant or non-public and provide accessors if needed.(†”ÌËøÿÿÿÿ8ÎĞåÅ‹0
+o
+java:S1104("MMake y a static final constant or non-public and provide accessors if needed.(†”ÌËøÿÿÿÿ8ÎĞåÅ‹0
+o
+java:S1104)"RMake offset a static final constant or non-public and provide accessors if needed.(ßü©±8ÎĞåÅ‹0
+j
+java:S1104*"MMake a a static final constant or non-public and provide accessors if needed.(Ó¶¥Û8ÎĞåÅ‹0
+j
+java:S1104+"MMake b a static final constant or non-public and provide accessors if needed.(şÚ‰é8ÎĞåÅ‹0
+l
+java:S1104,"PMake selX a static final constant or non-public and provide accessors if needed.(–¼æh8ÎĞåÅ‹0
+r
+java:S1104-"PMake selY a static final constant or non-public and provide accessors if needed.(Æ ®Çùÿÿÿÿ8ÎĞåÅ‹0
+P
+java:S1444".Make this "public static cptTotal" field final(ôÉìÀûÿÿÿÿ8ÎĞåÅ‹0
+u	java:S116"TRename this field "Firstgame" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(«èüÚùÿÿÿÿ8£èåÅ‹0
+i	java:S116"MRename this field "IA" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Å½ûÑ8£èåÅ‹0
+L
+java:S2387("*"x" is the name of a field in "Component".(†”ÌËøÿÿÿÿ8ÄèåÅ‹0
+L
+java:S2387("*"y" is the name of a field in "Component".(†”ÌËøÿÿÿÿ8ÄèåÅ‹0
+l
+java:S1845Õ"IRename method "IA" to prevent any misunderstanding/clash with field "IA".(ò…×ìşÿÿÿÿ8ÉèåÅ‹0
+A
+java:S1659("Declare "y" on a separate line.(†”ÌËøÿÿÿÿ8ßèåÅ‹0
+]	java:S125M"<This block of commented-out lines of code should be removed.(©´Óúÿÿÿÿ8şèåÅ‹0
+]	java:S125T"<This block of commented-out lines of code should be removed.(’¨”òşÿÿÿÿ8éåÅ‹0
+X	java:S125l"<This block of commented-out lines of code should be removed.(¾Ë‰í8éåÅ‹0
+]
+java:S1161ˆ":Add the "@Override" annotation above this method signature(‹›È¥úÿÿÿÿ8½éåÅ‹0
+|
+java:S2142"^Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.(ä ¹€8ÁéåÅ‹0
+”
+java:S1130à"wRemove the declaration of thrown exception 'java.lang.InterruptedException', as it cannot be thrown from method's body.(ĞÖ8ÜéåÅ‹0
+F	java:S108ã")Either remove or fill this block of code.(÷–ğŞ8İéåÅ‹0
+p
+java:S3776ö"RRefactor this method to reduce its Cognitive Complexity from 41 to the 15 allowed.(ÿÅ¬·8àéåÅ‹0
+•
+java:S1130ö"wRemove the declaration of thrown exception 'java.lang.InterruptedException', as it cannot be thrown from method's body.(ÿÅ¬·8âéåÅ‹0
+[	java:S106ø"9Replace this use of System.out or System.err by a logger.(¹ëĞâüÿÿÿÿ8ãéåÅ‹0
+E
+java:S1125­"'Remove the unnecessary boolean literal.(œ¼¾8æéåÅ‹0
+[	java:S106¶"9Replace this use of System.out or System.err by a logger.(ï‹Û´şÿÿÿÿ8çéåÅ‹0
+V	java:S106º"9Replace this use of System.out or System.err by a logger.(¼Œ–8èéåÅ‹0
+V	java:S106¼"9Replace this use of System.out or System.err by a logger.(ÍŒºÃ8ééåÅ‹0
+Y
+java:S2696É"6Make the enclosing method "static" or remove this set.(«áıØùÿÿÿÿ8ìéåÅ‹0
+^	java:S125Ê"<This block of commented-out lines of code should be removed.(®–çıÿÿÿÿ8íéåÅ‹0
+T
+java:S2696Ì"6Make the enclosing method "static" or remove this set.(¨ƒŸÀ8íéåÅ‹0
+^	java:S125Í"<This block of commented-out lines of code should be removed.(¬Õ–üÿÿÿÿ8íéåÅ‹0
+Y	java:S125Ï"<This block of commented-out lines of code should be removed.(êÀËÄ8îéåÅ‹0
+p	java:S100Õ"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ò…×ìşÿÿÿÿ8îéåÅ‹0
+u
+java:S3776Õ"RRefactor this method to reduce its Cognitive Complexity from 98 to the 15 allowed.(ò…×ìşÿÿÿÿ8ïéåÅ‹0
+U
+java:S1854ô"7Remove this useless assignment to local variable "pos".(¥óêõ8ğéåÅ‹0
+U
+java:S1854÷"7Remove this useless assignment to local variable "pos".(¥óêõ8ñéåÅ‹0
+D
+java:S1659Ø"!Declare "max" on a separate line.(„áÁ‰ûÿÿÿÿ8ñéåÅ‹0
+A
+java:S2119×"Save and re-use this "Random".(šŸ«íøÿÿÿÿ8õéåÅ‹0
+Y	java:S125Ú"<This block of commented-out lines of code should be removed.(€ë“è8öéåÅ‹0
+E
+java:S1481Ş"(Remove this unused "pos" local variable.(õÒÿ 8÷éåÅ‹0
+S
+java:S1117á"5Rename "a" which hides the field declared at line 42.(ìêÿú8şéåÅ‹0
+
+java:S1130¯"lRemove the declaration of thrown exception 'java.io.IOException', as it cannot be thrown from method's body.( ¸»şÿÿÿÿ8‚êåÅ‹0
+J
+java:S1602µ",Remove useless curly braces around statement(ÿ¶ßâ8„êåÅ‹0
+¤
+java:S1186û"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(®î’×üÿÿÿÿ8«êåÅ‹0
+Ÿ
+java:S1186ÿ"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ãÆĞÂ8»êåÅ‹0
+¤
+java:S1186ƒ"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(Ö„˜şúÿÿÿÿ8ËêåÅ‹0
+¤
+java:S1186‡"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(•ßçùÿÿÿÿ8ÛêåÅ‹0
+p
+java:S3776Æ"RRefactor this method to reduce its Cognitive Complexity from 38 to the 15 allowed.(³şİÔ8ŠëåÅ‹0
+@
+java:S1659Í""Declare "selY" on a separate line.(–‚Ö‘8ŒëåÅ‹0
+Y	java:S125Ê"<This block of commented-out lines of code should be removed.(âˆ¢Ø8ŒëåÅ‹0
+V
+java:S1117Í"8Rename "selX" which hides the field declared at line 44.(–‚Ö‘8ëåÅ‹0
+V
+java:S1117Í"8Rename "selY" which hides the field declared at line 45.(–‚Ö‘8ëåÅ‹0
+c
+java:S2147î"ECombine this catch with the one at line 492, which has the same body.(ï­£Ä8©ëåÅ‹0
+|
+java:S2142ì"^Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.(ä ¹€8©ëåÅ‹0
+Y	java:S125ô"<This block of commented-out lines of code should be removed.(ØÜú8¬ëåÅ‹0
+[	java:S106ö"9Replace this use of System.out or System.err by a logger.(ûàóÌşÿÿÿÿ8­ëåÅ‹0
+O
+java:S1128"2Remove this unused import 'java.sql.SQLException'.(ÛïÆŸ8Ü—êÅ‹0
