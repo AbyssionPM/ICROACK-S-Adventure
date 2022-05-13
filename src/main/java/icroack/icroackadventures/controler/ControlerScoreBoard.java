@@ -16,7 +16,8 @@ import java.util.LinkedList;
 
 /**
  *
- * @author Pierre
+ * @author FroggyTeam
+ *
  */
 public class ControlerScoreBoard {
     

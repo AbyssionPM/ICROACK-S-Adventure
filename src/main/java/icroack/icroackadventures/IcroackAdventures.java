@@ -7,16 +7,23 @@ package icroack.icroackadventures;
 
 import icroack.icroackadventures.view.Login;
 
+import java.io.IOException;
+
 /**
  *
- * @author Pierre
+ * @author FroggyTeam
  */
 public class IcroackAdventures {
     
     public IcroackAdventures(){}
 
     public static void main(String[] args) {
-        Login l = new Login(); 
+        Login l = null;
+        try {
+            l = new Login();
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
         l.setVisible(true);
     }
 }

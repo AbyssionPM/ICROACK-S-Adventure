@@ -16,7 +16,7 @@ import javax.swing.BorderFactory;
 
 /**
  *
- * @author Pierre
+ * @author FroggyTeam
  */
 public class Home extends javax.swing.JFrame {
 
@@ -116,7 +116,12 @@ public class Home extends javax.swing.JFrame {
 
     private void DisconnectActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_DisconnectActionPerformed
         // TODO add your handling code here:
-        Login l = new Login();
+        Login l = null;
+        try {
+            l = new Login();
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
         l.setVisible(true);
         this.dispose();
     }//GEN-LAST:event_DisconnectActionPerformed

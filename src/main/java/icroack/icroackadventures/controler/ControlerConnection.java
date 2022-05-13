@@ -15,7 +15,7 @@ import java.sql.SQLException;
 
 /**
  *
- * @author Pierre
+ * @author FroggyTeam
  * Cette classe permet la connexion à l'application, elle vérifie
  * qu'un utilisateur soit présent dans la DB et si cet utilisateur
  * est administrateur ou non.
@@ -25,7 +25,7 @@ public class ControlerConnection {
     private DAOIcare DAOicare;
     private String nickname;
     private String passwd;
-    private String isAdmin;
+    private Boolean isAdmin;
     private Game g;
 
     private ConfigReader cf = new ConfigReader();
@@ -42,17 +42,21 @@ public class ControlerConnection {
 
         this.nickname = nickname;
         this.passwd = passwd;
+        this.isAdmin = false;
 
         /*
          * Vérification de l'existence d'un login dans la DB
          * + vérification de la corrspondance des données (login, password)
          * Si il existe une correspondance :
-         *  -> Ouverture de Home = page d'accueil
+         *  On ferme cette fenêtre
          *  -> Si l'utilisateur en cours est marqué comme administrateur
-         *   -> Affichage du bouton d'administration sur Home
+         *   -> l'attribut isAdmin passe à true.
          * S'il n'existe pas de correspondance :
          *  -> Affichage de l'erreur de connexion (LogError)
+         * On appelle alors dans Log la méthode checkAdmin qui affichera
+         * la fenêtre Home avec le bouton d'administration visible ou non.
          */
+
         if (isEmpty()) {
             String strCheck1 ="SELECT login, password,isAdmin FROM player WHERE login='" + this.nickname
                     + "' AND password = '" + this.passwd +"'";
@@ -63,24 +67,31 @@ public class ControlerConnection {
             while (rsUsers.next()) {
                 if (rsUsers.getString("login").equals(nickname) && rsUsers.getString("password").equals(passwd)) {
                     found=true;
-                    Home h = new Home();
-                    h.setVisible(true);
                     log.dispose();
+
                     if(rsUsers.getString("isAdmin").equals("1")){
-                        Home.btnAdmin.setVisible(true);
+                        isAdmin = true;
+                        checkAdmin();
                     }else{
-                        Home.btnAdmin.setVisible(false);
+                        isAdmin = false ;
+                        checkAdmin();
                     }
                 }
             }
-            if(found==false){ // SI LA REQUETE NE TROUVE AUCUNE CORRESPONDANCE
+            /* Si aucune correspondances alors on renvoie
+             * un message d'erreur à l'utilisateur
+             */
+            if(found==false){
                 System.out.println("too");
                 LogError lg = new LogError();
                 lg.setVisible(true);
                 this.DAOicare.getConn().close();
             }
+
+
         }
     }
+
     // Méthode permettant d'interrompre la connexion à la DB
     public void closeConnection() throws SQLException{this.DAOicare.getConn().close();}
 
@@ -93,4 +104,22 @@ public class ControlerConnection {
         }
         return empty;
     }
+
+    // Méthode check Admin
+    public void checkAdmin(){
+        Home h = null;
+        try {
+            h = new Home();
+            if (isAdmin) Home.btnAdmin.setVisible(true);
+            else Home.btnAdmin.setVisible(false);
+            h.setVisible(true);
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
+    }
+
+    // GETTER & SETTER
+    public Boolean getAdmin() {return isAdmin;}
+
+    public String getNickname() {return nickname;}
 }

@@ -4,13 +4,12 @@
  */
 package icroack.icroackadventures.view;
 
-import icroack.icroackadventures.controler.ControlerQuizz;
 import icroack.icroackadventures.model.Audio;
 import icroack.icroackadventures.model.Character;
 import icroack.icroackadventures.controler.TimerTime;
 import icroack.icroackadventures.model.FroggCursor;
 import icroack.icroackadventures.model.RollDice;
-import icroack.icroackadventures.model.TotalScore;
+import icroack.icroackadventures.model.Player;
 import java.awt.Color;
 import java.io.IOException;
 import java.sql.SQLException;
@@ -22,7 +21,7 @@ import javax.swing.*;
 
 /**
  *
- * @author Pierre
+ * @author FroggyTeam
  */
 public class Game extends javax.swing.JFrame {
 
@@ -35,7 +34,7 @@ public class Game extends javax.swing.JFrame {
     public Character ch;
     public ViewBoard vb;
     private FroggCursor fc;
-    private TotalScore tts ;
+    private Player tts ;
     
     public Game() throws IOException{
         this.counter = 0;
@@ -49,7 +48,7 @@ public class Game extends javax.swing.JFrame {
         tt.start();
         this.ch = new Character();
         froggyIcon.setIcon(new ImageIcon("resource/froggyVictory.gif")); //image mv
-        this.tts = new TotalScore();
+        this.tts = new Player();
         this.fc = new FroggCursor(this);
         String song = "resource/coffindance.wav";
         try {
@@ -234,7 +233,7 @@ public class Game extends javax.swing.JFrame {
 
             System.out.println(ch.getxPosCharacter());
             System.out.println(ch.getyPosCharacter());
-            tts.defineScore(this);
+            tts.defineScore();
             tts.setLabelScore(this);
             System.out.println(tts.getTotalScore());
             //rsd.setVisible(true);

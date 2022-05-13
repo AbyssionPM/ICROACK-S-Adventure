@@ -6,10 +6,12 @@ import java.awt.*;
 public class RollUp extends JFrame {
 
     /**
+     * @author FroggyTeam
      * Creates new form RollBack
      */
     public RollUp() {
         this.setUndecorated(true);
+        this.setDefaultCloseOperation(DISPOSE_ON_CLOSE);
         initComponents();
         jLabel1.setText("+ 3 cases !");
         this.getContentPane().setBackground(new Color(0,0,0));

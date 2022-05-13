@@ -19,7 +19,7 @@ import javax.swing.JPanel;
 
 /**
  *
- * @author Pierre
+ * @author FroggyTeam
  */
 
 public class FlappyScene extends JPanel{

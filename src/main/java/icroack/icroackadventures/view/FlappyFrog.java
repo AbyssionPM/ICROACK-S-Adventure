@@ -19,7 +19,7 @@ import javax.swing.JLabel;
 
 /**
  *
- * @author Pierre
+ * @author FroggyTeam
  */
 public class FlappyFrog extends JFrame {
     //Déclaration des variables :

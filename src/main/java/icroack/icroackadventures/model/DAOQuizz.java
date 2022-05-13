@@ -13,7 +13,7 @@ import java.util.Collections;
 
 /**
  *
- * @author Pierre
+ * @author FroggyTeam
  * Cette classe permet de se connecter à la BDD et de récupérer l'ensemble des
  * questions utilisées par la suite dans le QCM
  */

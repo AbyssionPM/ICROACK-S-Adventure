@@ -6,7 +6,7 @@ package icroack.icroackadventures.model;
 
 /**
  *
- * @author Pierre
+ * @author FroggyTeam
  * Meh ? Demandez à @Thurston, j'ai pas compris.
  */
 public class Question {

@@ -11,7 +11,7 @@ import static java.util.concurrent.TimeUnit.SECONDS;
 
 /**
  *
- * @author Pierre
+ * @author FroggyTeam
  */
 public class Countdown{
     ControlerQuizz cq;

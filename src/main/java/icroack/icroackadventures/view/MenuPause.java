@@ -5,6 +5,8 @@
 package icroack.icroackadventures.view;
 
 import icroack.icroackadventures.model.Audio;
+import icroack.icroackadventures.model.Player;
+
 import java.awt.Color;
 import java.io.IOException;
 import java.util.logging.Level;
@@ -14,7 +16,7 @@ import javax.swing.ImageIcon;
 
 /**
  *
- * @author Pierre
+ * @author FroggyTeam
  */
 public class MenuPause extends javax.swing.JFrame {
 
@@ -22,7 +24,6 @@ public class MenuPause extends javax.swing.JFrame {
      * Creates new form MenuPause
      */
     private Game game;
-    
     public MenuPause(Game game) {
         this.setUndecorated(true);
         initComponents();
@@ -102,23 +103,23 @@ public class MenuPause extends javax.swing.JFrame {
         getContentPane().add(buttonQuit);
         buttonQuit.setBounds(90, 310, 150, 75);
 
-        bgPause.setIcon(new javax.swing.ImageIcon("resource/Forest1.png")); // NOI18N
+        bgPause.setIcon(new javax.swing.ImageIcon("resource/Forest1.png"));
         getContentPane().add(bgPause);
         bgPause.setBounds(0, 0, 330, 408);
 
         pack();
-    }// </editor-fold>//GEN-END:initComponents
+    }
 
-    private void buttonResumeMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_buttonResumeMouseClicked
+    private void buttonResumeMouseClicked(java.awt.event.MouseEvent evt) {
         // TODO add your handling code here:
         ImageIcon bResClick = new ImageIcon("resource/buttonResume3_r.png");
         buttonResume.setIcon(bResClick);
         this.dispose();
         Game.tt.resume();
-    }//GEN-LAST:event_buttonResumeMouseClicked
+    }
 
-    private void buttonHomeMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_buttonHomeMouseClicked
-        // TODO add your handling code here:
+    private void buttonHomeMouseClicked(java.awt.event.MouseEvent evt) {
+
         this.dispose();
         game.dispose();
         game.tt.stop();
@@ -126,14 +127,17 @@ public class MenuPause extends javax.swing.JFrame {
         game.tt.setS(0);
         Audio.stop();
         Home h;
+
         try {
             h = new Home();
+            if (Player.isAdmin) Home.btnAdmin.setVisible(true);
+            else Home.btnAdmin.setVisible(false);
             h.setVisible(true);
         } catch (IOException ex) {
             Logger.getLogger(MenuPause.class.getName()).log(Level.SEVERE, null, ex);
         }
         
-    }//GEN-LAST:event_buttonHomeMouseClicked
+    }
 
     private void buttonQuitMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_buttonQuitMouseClicked
         // TODO add your handling code here:

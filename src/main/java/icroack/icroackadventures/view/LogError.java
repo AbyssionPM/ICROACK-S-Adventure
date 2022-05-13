@@ -9,7 +9,7 @@ import javax.swing.BorderFactory;
 
 /**
  *
- * @author Pierre
+ * @author FroggyTeam
  */
 public class LogError extends javax.swing.JFrame {
 

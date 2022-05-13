@@ -15,7 +15,7 @@ import javax.imageio.ImageIO;
 
 /**
  *
- * @author Pierre
+ * @author FroggyTeam
  * Cette classe permet de changer le curseur de la souris afin d'en charger un
  * personnalisé (grenouille).
  * Elle doit être instancié dans chaque fenêtre où l'on souhaite changer le curseur

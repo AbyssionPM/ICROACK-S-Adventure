@@ -8,7 +8,7 @@ import java.awt.Color;
 
 /**
  *
- * @author Pierre
+ * @author FroggyTeam
  */
 public class RollBack extends javax.swing.JFrame {
 
@@ -17,6 +17,7 @@ public class RollBack extends javax.swing.JFrame {
      */
     public RollBack() {
         this.setUndecorated(true);
+        this.setDefaultCloseOperation(DISPOSE_ON_CLOSE);
         initComponents();
         this.getContentPane().setBackground(new Color(0,0,0));
         this.setSize(400, 300);

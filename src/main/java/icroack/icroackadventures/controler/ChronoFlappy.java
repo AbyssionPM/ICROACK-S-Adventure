@@ -11,9 +11,9 @@ import java.util.logging.Logger;
 
 /**
  *
- * @author Pierre
+ * @author FroggyTeam
  * Cette classe permet le déplacement du fond d'écran du mini-jeu
- * il s'agit d'un thread
+ * il s'agit d'un thread.
  */
 
 public class ChronoFlappy implements Runnable{

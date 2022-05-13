@@ -11,7 +11,7 @@ import javax.swing.ImageIcon;
 
 /**
  *
- * @author Pierre
+ * @author FroggyTeam
  * Cette classe définit tout ce qui est relatif au personnage 
  * du mini jeu FlappyFrogg
  * Ici sont chargées les images et les positions en X et Y.

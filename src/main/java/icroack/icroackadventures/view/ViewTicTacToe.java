@@ -1,6 +1,6 @@
 package icroack.icroackadventures.view;
 /**
- * @author Mickael
+ * @author FroggyTeam
  */
 
 import javax.swing.*;

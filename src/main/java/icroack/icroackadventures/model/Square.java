@@ -6,7 +6,7 @@ package icroack.icroackadventures.model;
 
 /**
  *
- * @author Pierre
+ * @author FroggyTeam
  * Cette classe permet d'afficher l'image définie pour la square en 
  * fonction d'un entier qui sera donné dans la classe Board
  */

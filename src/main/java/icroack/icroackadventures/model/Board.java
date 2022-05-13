@@ -6,7 +6,7 @@ package icroack.icroackadventures.model;
 
 /**
  *
- * @author Pierre
+ * @author FroggyTeam
  * Cette méthode génére le plateau de jeu, elle 
  * appele des éléments (square) de la classe Square
  * elle comprend 3 méthodes permettant de générer 

@@ -8,7 +8,7 @@ import icroack.icroackadventures.controler.TimerTime;
 
 /**
  *
- * @author Pierre
+ * @author FroggyTeam
  */
 public class ViewTimer {
     public static TimerTime tt;

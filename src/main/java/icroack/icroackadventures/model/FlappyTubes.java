@@ -10,7 +10,7 @@ import javax.swing.ImageIcon;
 
 /**
  *
- * @author Pierre
+ * @author FroggyTeam
  * Dans cette classe les obstacles sont définis pour le
  * mini-jeu flappyfrogg
  */

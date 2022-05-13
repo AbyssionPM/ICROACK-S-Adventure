@@ -6,6 +6,7 @@ package icroack.icroackadventures.view;
 
 import icroack.icroackadventures.controler.ControlerAccountCreation;
 import java.awt.Color;
+import java.io.IOException;
 import java.sql.SQLException;
 import java.util.logging.Level;
 import java.util.logging.Logger;
@@ -13,7 +14,7 @@ import javax.swing.BorderFactory;
 
 /**
  *
- * @author Pierre
+ * @author FroggyTeam
  */
 public class AccountCreation extends javax.swing.JFrame {
 
@@ -168,7 +169,12 @@ public class AccountCreation extends javax.swing.JFrame {
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
         // TODO add your handling code here:
         this.dispose();
-        Login l = new Login();
+        Login l = null;
+        try {
+            l = new Login();
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
         l.setVisible(true);
     }//GEN-LAST:event_jButton2ActionPerformed
 

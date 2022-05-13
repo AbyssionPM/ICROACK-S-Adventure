@@ -14,8 +14,7 @@ import javax.sound.sampled.LineUnavailableException;
 import javax.sound.sampled.UnsupportedAudioFileException;
 
 /**
- *
- * @author Pierre
+ * @author FroggyTeam
  */
 public class Audio {
     // Déclaration des attributs de la classe

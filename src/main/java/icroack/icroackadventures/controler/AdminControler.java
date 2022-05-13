@@ -12,7 +12,7 @@ import java.sql.*;
 
 /**
  *
- * @author Pierre
+ * @author FroggyTeam
  */
 public class AdminControler {
     // Déclaration des attributs de la classe

@@ -6,7 +6,7 @@ package icroack.icroackadventures.view;
 
 /**
  *
- * @author Pierre
+ * @author FroggyTeam
  */
 
 import icroack.icroackadventures.model.Board;

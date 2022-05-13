@@ -16,7 +16,7 @@ import javax.swing.JLabel;
 
 /**
  *
- * @author Pierre
+ * @author FroggyTeam
  * Cette classe est propre au personnage :
  * L'image du personnage est un JLabel chargé dans la classe
  * ViewBoard, à travers cette classe on va influencer directement sur la position 
@@ -40,6 +40,9 @@ public class Character {
     public static int oldYPosCharacter;
     static int moveCounter;
 
+    private boolean alreadyPassed;
+
+
     // Constructeur de la classe Charachter
     public Character(){
         /*
@@ -51,6 +54,7 @@ public class Character {
         this.oldXPosCharacter = 0;
         this.oldYPosCharacter = 0;
         this.moveCounter = 0;
+        this.alreadyPassed = false;
     }
 
     // Getters & Setters
@@ -274,7 +278,7 @@ public class Character {
                 Character.yPosCharacter = 300;
                 jb.setVisible(false);
                 tt.stop();
-                TotalScore.sendToDB(Login.logSave);
+                Player.sendToDB(Player.connectedUser);
             }
         
     }

@@ -12,8 +12,7 @@ import java.util.logging.Logger;
 import javax.swing.*;
 
 /**
- *
- * @author Pierre
+ * @author FroggyTeam
  */
 public class AdminView extends javax.swing.JFrame {
 

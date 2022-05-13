@@ -8,7 +8,7 @@ import icroack.icroackadventures.view.Game;
 
 /**
  *
- * @author Pierre
+ * @author FroggyTeam
  * Cette classe correspond au timer général du jeu
  * Il s'agit d'un thread qui compte les secondes passées, 
  * convertie les secondes en minutes puis les minutes en heure.

@@ -11,7 +11,7 @@ import javax.swing.ImageIcon;
 
 /**
  *
- * @author Pierre
+ * @author FroggyTeam
  * Cette classe permet de générer un lancement de dé à 6 faces 
  * Elle permet également de définir l'image qui sera affichée sur la Frame Game
  * dans le JLabel contenant le dernier résultat du lancer.

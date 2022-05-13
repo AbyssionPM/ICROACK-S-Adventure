@@ -12,7 +12,7 @@ import java.util.logging.Logger;
 
 /**
  *
- * @author Pierre
+ * @author FroggyTeam
  */
 public class LeaderBoard extends javax.swing.JFrame {
 

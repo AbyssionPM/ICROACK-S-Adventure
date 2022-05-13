@@ -11,7 +11,7 @@ import java.sql.Statement;
 
 /**
  *
- * @author Pierre
+ * @author FroggyTeam
  * La classe DAO du jeu, elle permet de se connecter à a base de donnée
  */
 public class DAOIcare {

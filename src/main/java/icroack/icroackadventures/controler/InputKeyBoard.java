@@ -10,7 +10,7 @@ import java.awt.event.KeyListener;
 
 /**
  *
- * @author Pierre
+ * @author FroggyTeam
  * Cette classe controle les inputs utilisateurs 
  * afin d'interagir sur le mini-jeu FlappyFrogg
  * à l'appui de la touche E la méthode keyPressed 

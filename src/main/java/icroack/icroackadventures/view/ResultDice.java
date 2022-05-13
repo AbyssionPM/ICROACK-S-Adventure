@@ -10,7 +10,7 @@ import javax.swing.ImageIcon;
 
 /**
  *
- * @author Pierre
+ * @author FroggyTeam
  */
 public class ResultDice extends javax.swing.JFrame {
 

@@ -6,8 +6,6 @@ package icroack.icroackadventures.controler;
 
 import icroack.icroackadventures.model.DAOQuizz;
 import icroack.icroackadventures.model.Question;
-import icroack.icroackadventures.model.TotalScore;
-import icroack.icroackadventures.view.Game;
 import icroack.icroackadventures.view.ViewQuizzII;
 import java.io.IOException;
 import java.sql.SQLException;
@@ -17,7 +15,7 @@ import java.util.logging.Logger;
 
 /**
  *
- * @author Pierre
+ * @author FroggyTeam
  * Débruillez-vous avec ce code, j'y comprends rien du tout, donc...
  * les commentaires seront APPROXIMATIFS.
  * Cordialement 

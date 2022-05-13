@@ -5,6 +5,11 @@ import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.util.Properties;
 
+/**
+  * @author FroggyTeam
+  * Cette classe permet de lire dans un fichier
+  * de configuration.
+  */
 public class ConfigReader {
 
     Properties properties;

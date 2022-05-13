@@ -6,7 +6,7 @@ package icroack.icroackadventures.controler;
 
 /**
  *
- * @author Pierre
+ * @author FroggyTeam
  * Cette classe permet de créer un compte, elle 
  * a accès à la BDD et va y ajouter de nouveaux utilisateurs
  * elle vérifie également si le nom d'utilisateur renseigné 
@@ -17,6 +17,7 @@ import icroack.icroackadventures.model.DAOIcare;
 import icroack.icroackadventures.view.AccountCreation;
 import icroack.icroackadventures.view.Login;
 import javax.swing.*;
+import java.io.IOException;
 import java.sql.*;
 import java.util.Objects;
 
@@ -85,7 +86,7 @@ public class ControlerAccountCreation {
                if(rsUsers.getString("login").equals(this.login)) {
                    JOptionPane.showMessageDialog(null, "Ce pseudo existe déjà, merci d'en utiliser un autre.");
                    this.DAOicare.getConn().close();
-                }
+               }
             }
             /*
              * Dans le cas où les mot de passe fournis par l'utilisateur correspondent (mdp + vérif.)
@@ -109,8 +110,10 @@ public class ControlerAccountCreation {
                     
                 }catch (SQLException e) {
                        e.printStackTrace();
+                } catch (IOException e) {
+                    throw new RuntimeException(e);
                 }
-                   this.DAOicare.getConn().close(); 
+                this.DAOicare.getConn().close();
             }
             else{
                 JOptionPane.showMessageDialog(null, "Les deux mots de passe ne sont pas les mêmes, merci de renseigner des mots de passe identiques.");

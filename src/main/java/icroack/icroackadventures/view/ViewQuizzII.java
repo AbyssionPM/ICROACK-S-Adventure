@@ -16,7 +16,7 @@ import javax.swing.text.DefaultCaret;
 
 /**
  *
- * @author Pierre
+ * @author FroggyTeam
  */
 public class ViewQuizzII extends javax.swing.JFrame {
 
